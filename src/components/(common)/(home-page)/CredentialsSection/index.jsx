@@ -17,7 +17,7 @@ const CredentialsSection = () => {
         <p className="uppercase">Credentials you can trust</p>
         <div>
           <Marquee>
-            <div className="container flex items-center px-0">
+            <div className="mx-0 flex max-w-[100vw] items-center xl:container">
               {brands?.map((item, index) => (
                 <div className="basis-1/6" key={index}>
                   <div className="aspect-square w-full">

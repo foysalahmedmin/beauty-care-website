@@ -1,8 +1,14 @@
 const NewsOfferCard = ({ item }) => {
-  const { title, tags } = item;
+  const { title, tags, image } = item;
   return (
     <div>
-      <div className="aspect-[6/4] w-full border"></div>
+      <div className="aspect-[6/4] w-full overflow-hidden border">
+        <img
+          className="size-full object-cover object-center"
+          src={image}
+          alt=""
+        />
+      </div>
       <div className="space-y-2 py-4">
         <div className="flex flex-wrap items-center gap-1">
           {tags?.map((tag, index) => (
@@ -27,17 +33,17 @@ const NewsOfferSection = () => {
     {
       title: "Liposuction: What It Is, Surgery, Recovery & Results",
       tags: ["Treatments & Procedures"],
-      image: "",
+      image: "/images/(home-page)/details.jpg",
     },
     {
       title: "Sculpting Beauty: The Art of Face and Body Contouring",
       tags: ["Inspiration"],
-      image: "",
+      image: "/images/(home-page)/details.jpg",
     },
     {
       title: "Best Skin Treatments for Tight and Glowing Skin",
       tags: ["News"],
-      image: "",
+      image: "/images/(home-page)/details.jpg",
     },
   ];
   return (
