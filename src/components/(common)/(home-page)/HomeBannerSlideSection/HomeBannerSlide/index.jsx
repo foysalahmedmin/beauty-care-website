@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/Button";
 import { Dot } from "lucide-react";
 
-const HomeBannerSlide = () => {
+const HomeBannerSlide = ({ data }) => {
   return (
     <div
       style={{
-        backgroundImage: `url("/images/(home-page)/banner-image.jpg")`,
+        backgroundImage: `url(${data?.image})`,
       }}
       className="bg-cover bg-center bg-no-repeat"
     >
@@ -14,33 +14,26 @@ const HomeBannerSlide = () => {
           <div className="max-w-[44rem] space-y-6">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl">
-                FEEL YOUR BEST. LOOK <br /> YOUR BEST.
+                {data?.head_1} <br /> {data?.head_2}
               </h1>
               <p>
-                Top Destination for plastic surgary and nonsurgical treatment
+                {data?.short_description}
               </p>
             </div>
             <div className="flex items-center justify-center gap-4">
               <Button className="primary" variant="default">
-                Free Consultation
+                {data?.button_1}
               </Button>
               <Button
                 className="hover:bg-primary/75 hover:text-primary-foreground"
                 variant="default"
               >
-                Free Consultation
+                {data?.button_2}
               </Button>
             </div>
           </div>
           <div className="absolute bottom-10 left-0 right-0 flex w-full flex-wrap items-center justify-around gap-4">
-            {[
-              "Facelift",
-              "Rhinoplasty",
-              "Mommy Makeover",
-              "Tommy Tuck",
-              "Liposuction",
-              "Injectable",
-            ].map((item, index) => (
+            {data?.tags?.map((item, index) => (
               <div
                 key={index}
                 className="flex cursor-pointer items-center gap-2 px-6 py-2 text-sm font-medium uppercase text-title"

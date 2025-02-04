@@ -5,7 +5,7 @@ const BodyPartSection = () => {
     <section>
       <div className="grid overflow-hidden md:grid-cols-3 lg:h-[32rem] xl:h-[40rem]">
         <div
-          style={{ backgroundImage: `url("/images/(home-page)/details.jpg")` }}
+          style={{ backgroundImage: `url("https://media.istockphoto.com/id/1389555356/photo/beauty-portrait-of-young-woman.jpg?s=612x612&w=0&k=20&c=jorASan4B-6UaatBxnNN-VJf_qvcbPu1bhwm8R_Pt74=")` }}
           className="group h-full min-h-96 w-full cursor-pointer overflow-hidden bg-cover bg-center bg-no-repeat"
         >
           <div className="dark flex size-full flex-col bg-black/25 p-4 py-12 text-center text-title">
@@ -18,7 +18,7 @@ const BodyPartSection = () => {
           </div>
         </div>
         <div
-          style={{ backgroundImage: `url("/images/(home-page)/details.jpg")` }}
+          style={{ backgroundImage: `url("https://media.istockphoto.com/id/1371512773/photo/cropped-shot-of-a-fit-young-woman-showing-off-her-thighs.jpg?s=612x612&w=0&k=20&c=Wi0oFzaqclgvzDbV5Qqv7c_XkFeITm1XvMNv7EBJr-k=")` }}
           className="group h-full min-h-96 w-full cursor-pointer overflow-hidden bg-cover bg-center bg-no-repeat"
         >
           <div className="dark flex size-full flex-col bg-black/25 p-4 py-12 text-center text-title">
@@ -31,7 +31,7 @@ const BodyPartSection = () => {
           </div>
         </div>
         <div
-          style={{ backgroundImage: `url("/images/(home-page)/details.jpg")` }}
+          style={{ backgroundImage: `url("https://www.venkatcenter.com/wp-content/uploads/2020/03/non-surgical-procedures.jpg")` }}
           className="group h-full min-h-96 w-full cursor-pointer overflow-hidden bg-cover bg-center bg-no-repeat"
         >
           <div className="dark flex size-full flex-col bg-black/25 p-4 py-12 text-center text-title">

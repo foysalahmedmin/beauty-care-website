@@ -14,7 +14,7 @@ const PopularProceduresSection = () => {
           <div className="relative -z-10 overflow-hidden md:order-2 md:-ml-20 lg:h-[32rem] xl:h-[40rem]">
             <img
               className="size-full min-h-96 object-cover object-center"
-              src="/images/(home-page)/face-before.jpg"
+              src="https://media.istockphoto.com/id/1343145458/photo/cheerful-smiling-young-woman-massaging-face-cheek-bones-beauty-model-with-perfect-smooth-skin.jpg?s=612x612&w=0&k=20&c=s_qUQ4qGWhV9M8LntlfcPQBJof3w9g4_Pg6cxRETa7I="
               alt=""
             />
           </div>

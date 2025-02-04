@@ -4,7 +4,7 @@ const HomeBannerBottomSection = () => {
   return (
     <section
       style={{
-        backgroundImage: `url("/images/(home-page)/banner-image.jpg")`,
+        backgroundImage: `url("https://images.squarespace-cdn.com/content/v1/64f83f902d10c760d4813bf4/7dcd0d2c-bb28-43a0-a8e7-643a169b3707/saw.jpeg")`,
       }}
       className="bg-cover bg-center bg-no-repeat"
     >

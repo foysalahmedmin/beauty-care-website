@@ -8,42 +8,22 @@ const routes = [
   {
     path: "#home",
     label: "Home ",
-    children: [
-      {
-        label: "Home-1",
-        path: "#",
-      },
-      {
-        label: "Home-2",
-        path: "#",
-      },
-    ],
   },
   {
     path: "#services",
     label: "Services",
     children: [
       {
-        label: "Services-1",
-        path: "#",
+        label: "Private GP Clinic",
+        path: "/private_gp_clinic",
       },
       {
-        label: "Services-2",
-        path: "#",
-      },
-    ],
-  },
-  {
-    path: "#pages",
-    label: "Pages",
-    children: [
-      {
-        label: "Page-1",
-        path: "#",
+        label: "Aesthetic Clinic",
+        path: "/aesthetic_clinic",
       },
       {
-        label: "Page-2",
-        path: "#",
+        label: "Concierge Service",
+        path: "/concierge_service",
       },
     ],
   },
@@ -54,6 +34,10 @@ const routes = [
   {
     path: "#contact",
     label: "Contact",
+  },
+  {
+    path: "#about",
+    label: "About",
   },
 ];
 

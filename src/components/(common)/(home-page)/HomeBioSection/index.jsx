@@ -8,12 +8,12 @@ const HomeBioSection = () => {
           <div className="relative aspect-[5/6] w-full overflow-hidden">
             <img
               className="size-[calc(100%-10%)] object-cover object-center"
-              src="/images/(home-page)/details.jpg"
+              src="https://poppcosmeticsurgery.com/wp-content/uploads/2021/12/Cosmetic-Surgery.jpg"
               alt=""
             />
             <img
               className="absolute bottom-0 right-0 size-[40%] object-cover object-center"
-              src="/images/(home-page)/details.jpg"
+              src="https://www.kauveryhospital.com/blog/wp-content/uploads/2017/02/cosmetic-surgery.png"
               alt=""
             />
           </div>

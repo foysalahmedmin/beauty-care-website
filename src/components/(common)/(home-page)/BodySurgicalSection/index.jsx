@@ -7,7 +7,7 @@ const BodySurgicalSection = () => {
         <div className="grid grid-cols-1 items-center overflow-hidden md:grid-cols-2 lg:h-[32rem] xl:h-[40rem]">
           <div
             style={{
-              backgroundImage: `url("/images/(home-page)/details.jpg")`,
+              backgroundImage: `url("https://www.shutterstock.com/image-photo/beautiful-woman-perfect-skin-underwear-600nw-2492680667.jpg")`,
             }}
             className="group h-full min-h-96 w-full cursor-pointer overflow-hidden bg-cover bg-center bg-no-repeat"
           ></div>

@@ -27,7 +27,7 @@ const DoctorSection = () => {
           <div className="relative aspect-[5/6] w-full overflow-hidden md:order-2">
             <img
               className="size-full object-cover object-center"
-              src="/images/(home-page)/face-before.jpg"
+              src="https://thechicicon.com/wp-content/uploads/2022/03/Dr.-Cat-Banner-1-1160x773.jpg"
               alt=""
             />
           </div>
