@@ -32,11 +32,11 @@ const routes = [
     label: "Blog",
   },
   {
-    path: "#contact",
+    path: "/contact",
     label: "Contact",
   },
   {
-    path: "#about",
+    path: "/about",
     label: "About",
   },
 ];
