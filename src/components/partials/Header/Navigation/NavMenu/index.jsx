@@ -46,8 +46,11 @@ const NavMenu = ({ isOpen, setIsOpen }) => {
     <>
       {/* Desktop Screen */}
       <div className="dark relative hidden md:block">
-        <ul className="flex size-full items-center justify-start gap-[1em] text-title">
-          <NavItems routes={routes} />
+        <ul className="flex size-full items-center justify-between gap-[1em] text-title">
+          <div>
+            <Logo />
+          </div>
+          <NavItems routes={routes} isOpen={isOpen} setIsOpen={setIsOpen} />
         </ul>
       </div>
       {/* Mobile Screen */}

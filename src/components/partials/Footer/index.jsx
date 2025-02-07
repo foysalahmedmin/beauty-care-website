@@ -4,10 +4,11 @@ import Contact from "./Contact";
 const Footer = () => {
   return (
     <>
-      <footer className="space-y-16">
-        <div className="container py-16 md:py-24">
+      <footer className="text-center">
+        <div className="container">
           <div className="flex justify-between">
             <div className="">
+              <img src="/images/LOGO.png" alt="logo" className="h-10 ml-8" />
               <Address />
             </div>
             <div>
