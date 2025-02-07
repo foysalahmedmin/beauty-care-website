@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/Button";
+import { useNavigate } from "react-router-dom";
 
 const HomeBioSection = () => {
+  const navigate = useNavigate();
   return (
     <section className="my-16 md:my-24">
       <div className="container">
@@ -32,7 +34,7 @@ const HomeBioSection = () => {
               exceptional results tailored to your unique needs.
             </p>
             <div>
-              <Button className="secondary">About the clinic</Button>
+              <Button onClick={() => navigate("/about")} className="secondary">About the clinic</Button>
             </div>
           </div>
         </div>
