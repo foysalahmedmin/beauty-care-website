@@ -7,8 +7,8 @@ const Footer = () => {
       <footer className="text-center">
         <div className="container">
           <div className="flex justify-between">
-            <div className="">
-              <img src="/images/LOGO.png" alt="logo" className="h-10 ml-8" />
+            <div className="flex flex-col items-center gap-6">
+              <img src="/images/LOGO.png" alt="logo" className="h-10" />
               <Address />
             </div>
             <div>

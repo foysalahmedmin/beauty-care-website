@@ -1,4 +1,3 @@
-import Logo from "@/components/partials/Logo";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import { X } from "lucide-react";
@@ -46,10 +45,7 @@ const NavMenu = ({ isOpen, setIsOpen }) => {
     <>
       {/* Desktop Screen */}
       <div className="dark relative hidden md:block">
-        <ul className="flex size-full items-center justify-between gap-[1em] text-title">
-          <div>
-            <Logo />
-          </div>
+        <ul className="flex size-full items-center justify-center gap-[1em] text-title">
           <NavItems routes={routes} isOpen={isOpen} setIsOpen={setIsOpen} />
         </ul>
       </div>
@@ -65,9 +61,6 @@ const NavMenu = ({ isOpen, setIsOpen }) => {
       >
         <div className="container space-y-6">
           <div className="flex h-header items-center justify-between">
-            <div>
-              <Logo />
-            </div>
             <Button
               onClick={() => setIsOpen(false)}
               variant="ghost"

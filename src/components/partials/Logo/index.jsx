@@ -17,7 +17,7 @@ const Logo = forwardRef(({ className, variant = "default", ...props }, ref) => {
       <div className="relative overflow-hidden rounded-lg shadow-sm transition-all duration-300 group-hover:shadow-md">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/5 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
         <img
-          className="h-10 w-auto transform object-cover transition-transform duration-300 group-hover:scale-105"
+          className="h-8 w-auto transform object-cover transition-transform duration-300 group-hover:scale-105"
           src="/images/LOGO.png"
           alt="Arkangel Clinic"
         />
