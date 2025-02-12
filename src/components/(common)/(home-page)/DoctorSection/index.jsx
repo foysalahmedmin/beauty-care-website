@@ -41,9 +41,8 @@ const DoctorSection = () => {
               </h2>
             </div>
             <p className="text-lg">
-              Our board-certified, world-renowned surgeon specializes in
-              advanced anti-aging procedures, delivering youthful, rejuvenated
-              results with expert care and precision.
+              Our board-certified, world-renowned surgeon specialises in advanced anti-ageing
+              procedures, delivering youthful, rejuvenated results with expert care and precision.
             </p>
             <div>
               <Button className="primary">About The Client</Button>

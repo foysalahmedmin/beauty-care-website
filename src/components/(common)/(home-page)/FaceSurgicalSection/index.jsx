@@ -22,10 +22,12 @@ const FaceSurgicalSection = () => {
               </h2>
             </div>
             <p className="text-lg">
-              Our expert surgeons specialize in advanced facial procedures
-              designed to restore youthful contours and enhance natural beauty.
-              With a meticulous approach, we ensure personalized care and
-              artistic precision in every treatment.
+              Our highly skilled surgeons specialise in sophisticated facial procedures aimed at
+              rejuvenating facial contours and enhancing natural aesthetics. Employing a meticulous
+              and methodical approach, we prioritise precision, personalised care, and the highest
+              clinical standards in every treatment. Our expertise ensures that each procedure is
+              tailored to the unique needs of our patients, combining advanced surgical techniques
+              with an unwavering commitment to excellence.
             </p>
             <div>
               <Button className="secondary">Facial Procedures</Button>

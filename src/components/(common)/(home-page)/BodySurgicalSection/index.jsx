@@ -22,12 +22,11 @@ const BodySurgicalSection = () => {
                 </h2>
               </div>
               <p className="text-lg">
-                We offer the most advanced anti-aging and body contouring
-                treatments, including liposuction, tummy tucks, and body
-                sculpting. Our expert surgeons ensure natural-looking results
-                with precision and care. Whether refining curves or restoring
-                youthful firmness, our personalized procedures help you achieve
-                a confident, well-defined, and harmonious silhouette.
+                We specialise in advanced anti-ageing and body contouring, including liposuction,
+                abdominoplasty, and body sculpting. Our expert surgeons deliver natural-looking
+                results with precision and care. Tailored to your needs, our procedures enhance
+                contours, restore firmness, and achieve a balanced, confident silhouette with the
+                highest medical standards.
               </p>
               <div>
                 <Button className="primary">Body Procedures</Button>

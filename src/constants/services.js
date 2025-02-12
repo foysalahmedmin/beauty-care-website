@@ -4,7 +4,7 @@ export const aestheticServices = [
         slug: "facial_rejuvenation_treatments",
         description: "Revitalize your skin with our advanced facial treatments, combining cutting-edge technology with luxurious skincare for a radiant, youthful complexion.",
         image: "https://www.ethylsnyc.com/wp-content/uploads/2021/04/Skin-rejuvenation-treatment-and-its-benefits.jpg",
-        overview: "Our facial rejuvenation treatments combine cutting-edge technology with medical expertise to restore your skin's natural radiance. Each treatment is customized to address your specific concerns and skin type.",
+        overview: "Rediscover your skin’s natural radiance with our bespoke facial rejuvenation treatments.Combining advanced technology with expert medical care, we tailor each treatment to your unique skin type and concerns.Whether you seek a youthful glow or targeted skin restoration, we prioritise your confidence and comfort every step of the way.",
         compare: {
             before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
             after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
@@ -14,42 +14,45 @@ export const aestheticServices = [
                 name: "HydraFacial",
                 price: 120,
                 duration: "45 mins",
-                description: "A multi-step treatment that cleanses, exfoliates, and hydrates skin while delivering essential nutrients."
+                description: "Refresh and revitalise your skin with our deeply hydrating, non-invasive facial treatment. This multi- step procedure gently removes dead skin cells, clears congested pores, and infuses your skin with powerful antioxidants, peptides, and hyaluronic acid for an instant, radiant glow.Enjoy a refining glycolic and salicylic peel, painless extractions, soothing LED light therapy, and a final burst of hydration with SPF protection.Perfect for those seeking smoother, brighter, and healthier skin—because you deserve to look and feel your best!"
             },
             {
                 name: "Chemical Peels",
-                subtypes: [
-                    {
-                        type: "Light Peel",
-                        price: 95,
-                        duration: "30 mins",
-                        description: "Gentle exfoliation for superficial skin concerns and overall brightening."
-                    },
-                    {
-                        type: "Medium Peel",
-                        price: 130,
-                        duration: "45 mins",
-                        description: "Deeper exfoliation for more pronounced skin concerns and texture improvement."
-                    }
-                ]
+                description: "Chemical peels rejuvenate the skin by gently exfoliating its outer layers, promoting cell renewal for a brighter, smoother complexion.Light peels refresh and refine, while medium peels target deeper concerns like pigmentation and fine lines.The treatment begins with a deep cleanse, followed by the application of a premium- grade solution.A mild tingling sensation signals activation, with neutralisation and cooling for added comfort in deeper peels.Post - treatment hydration and sun protection support recovery,and natural peeling over the following days reveals a radiant, even- toned glow.Some redness and peeling are normal, but the results—clearer, healthier skin—are well worth it.",
+                price: 150,
+                duration: "60 mins",
+                // subtypes: [
+                //     {
+                //         type: "Light Peel",
+                //         price: 95,
+                //         duration: "30 mins",
+                //         description: "Gentle exfoliation for superficial skin concerns and overall brightening."
+                //     },
+                //     {
+                //         type: "Medium Peel",
+                //         price: 130,
+                //         duration: "45 mins",
+                //         description: "Deeper exfoliation for more pronounced skin concerns and texture improvement."
+                //     }
+                // ]
             },
             {
                 name: "Microneedling (Collagen Induction Therapy)",
                 price: 200,
                 duration: "60 mins",
-                description: "Advanced treatment that stimulates natural collagen production for skin rejuvenation."
+                description: "Micro-needling is a cutting-edge skin rejuvenation treatment that stimulates natural collagen and elastin production by creating tiny, controlled micro- injuries.This process helps to reduce scars, fine lines, and signs of ageing, revealing firmer, smoother skin over time.The procedure begins with a deep cleanse and numbing cream for your comfort, followed by precision micro- needling to kickstart renewal.Potent serums, including hyaluronic acid and peptides, are then infused for deep nourishment.Expect mild redness post - treatment, but within days, your skin feels revitalised, with long -lasting youthful radiance developing in the weeks ahead.Safe, effective, and tailored to you."
             },
             {
-                name: "Dermaplaning",
+                name: "Derma Feeler",
                 price: 80,
                 duration: "30 mins",
-                description: "Physical exfoliation technique that removes dead skin cells and peach fuzz for smoother skin."
+                description: "Reveal a brighter, smoother complexion with our gentle dermaplaning treatment. Using a precision blade, we expertly remove dead skin cells and fine vellus hair, instantly enhancing your skin’s radiance.This treatment not only improves skincare absorption but also creates the perfect base for flawless makeup application.Your skin is cleansed, refined, and finished with nourishing serums and SPF for ultimate hydration and protection.Experience the confidence of a fresh, glowing complexion today!"
             },
             {
                 name: "LED Light Therapy",
                 price: 60,
                 duration: "20 mins",
-                description: "Non-invasive treatment using specific light wavelengths to target various skin concerns."
+                description: "Experience the power of LED light therapy—a gentle, effective treatment that reduces inflammation, clears acne, and boosts collagen for healthier, more radiant skin.With no downtime, this relaxing procedure starts with a deep cleanse, followed by targeted LED therapy(10–30 minutes) tailored to your skin’s needs, and finishes with nourishing serums and SPF for lasting protection.Perfect for all skin types, it’s a simple yet powerful way to restore balance and confidence in your complexion."
             }
         ],
         benefits: [
@@ -87,7 +90,7 @@ export const aestheticServices = [
         slug: "botox",
         description: "Smooth away fine lines and wrinkles with our precision anti-wrinkle treatments, delivered by expert practitioners for natural-looking results.",
         image: "https://images.squarespace-cdn.com/content/v1/61af7c40170a5d7dd8863ff2/7fdd6cf3-356d-47ae-b1be-84a7ca5752dc/woman-receiving-anti-wrinkle-injection.jpg",
-        overview: "Our anti-wrinkle injections are administered by highly skilled practitioners using premium products to reduce the appearance of fine lines and wrinkles while maintaining natural facial expressions.",
+        overview: "Our expert practitioners use top-quality anti-wrinkle injections to smooth fine lines and wrinkles while preserving your natural expressions.With a gentle, personalised approach, we ensure subtle, youthful results that enhance your confidence.You're in safe, skilled hands—because you deserve to look and feel your best.",
         compare: {
             before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
             after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
@@ -97,25 +100,25 @@ export const aestheticServices = [
                 name: "1 Area",
                 price: 180,
                 duration: "30 mins",
-                description: "Targeted treatment for one facial area such as frown lines, forehead lines, or crow's feet."
+                description: "Smooth away frown lines, forehead wrinkles, or crow’s feet with targeted treatment designed just for you.Restore a youthful, refreshed look with expert care that understands your unique needs.Because you deserve to feel confident in your own skin!"
             },
             {
                 name: "2 Areas",
                 price: 250,
                 duration: "45 mins",
-                description: "Combined treatment for two facial areas for comprehensive wrinkle reduction."
+                description: "Say goodbye to wrinkles with our combined treatment for two facial areas! Designed for a smoother, more youthful look, this tailored approach targets fine lines and deep wrinkles for comprehensive rejuvenation.Feel confident in your skin with expert care that prioritises natural results.Because you deserve to look as vibrant as you feel!"
             },
             {
                 name: "3 Areas",
                 price: 300,
                 duration: "60 mins",
-                description: "Complete facial rejuvenation treating three areas for optimal results."
+                description: "Achieve a refreshed, youthful look with our complete facial rejuvenation, expertly treating three key areas for the best results.We understand the desire to look and feel your best, which is why our tailored approach enhances your natural beauty with precision and care.Reclaim your confidence with a treatment designed to restore, revitalise, and rejuvenate."
             },
             {
                 name: "Hyperhidrosis (Excessive Sweating)",
                 price: 450,
                 duration: "60 mins",
-                description: "Specialized treatment to reduce excessive sweating in underarms or other affected areas."
+                description: "Struggling with excessive underarm sweating? You're not alone, and we understand how frustrating it can be.Our specialised treatments effectively reduce sweating in targeted areas, restoring your confidence and comfort.Say goodbye to stains and discomfort—take control today!"
             }
         ],
         benefits: [
@@ -157,37 +160,37 @@ export const aestheticServices = [
             before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
             after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
         },
-        overview: "Our premium dermal filler treatments are performed by expert practitioners using the highest quality products to enhance your natural features while maintaining facial harmony.",
+        overview: "Enhance your natural beauty with our premium dermal filler treatments, expertly performed by skilled practitioners using the highest quality products.We prioritise your comfort and confidence, ensuring subtle, natural- looking results that maintain facial harmony.Feel your best with safe, professional care tailored to you.",
         treatments: [
             {
                 name: "Lip Enhancement",
                 priceRange: "250–350",
                 duration: "45 mins",
-                description: "Natural-looking lip augmentation to enhance volume, shape, and symmetry of the lips."
+                description: "Enhance your natural beauty with subtle, balanced lip augmentation designed to add volume, refine shape, and improve symmetry.Our expert approach ensures a soft, natural look that complements your features, boosting confidence while maintaining authenticity.Whether you seek a fuller pout or gentle definition, we prioritise your comfort and desired outcome.Because your beauty deserves to shine—naturally."
             },
             {
                 name: "Nasolabial Folds (Smile Lines)",
                 priceRange: "300–400",
                 duration: "45 mins",
-                description: "Soften deep lines running from the nose to mouth corners for a more youthful appearance."
+                description: "Say goodbye to deep lines from your nose to mouth and restore a youthful, refreshed look.Our expert treatments gently soften these lines, enhancing your natural beauty for a smoother, more vibrant appearance.Let us help you feel confident and rejuvenated—because you deserve to look as young as you feel."
             },
             {
                 name: "Cheek Enhancement",
                 priceRange: "350–450",
                 duration: "60 mins",
-                description: "Restore or enhance cheek volume for improved facial contours and a lifted appearance."
+                description: "Restore lost cheek volume for a youthful, lifted look with our expert treatments. Enhance your natural contours for a refreshed, confident appearance.Tailored to you, with care and precision—because you deserve to feel your best."
             },
             {
                 name: "Jawline Contouring",
                 priceRange: "400–500",
                 duration: "60 mins",
-                description: "Define and sculpt the jawline for improved facial profile and symmetry."
+                description: "Enhance your jawline for a sharper, more balanced facial profile. Define contours, improve symmetry, and boost confidence with personalised treatments designed for natural - looking results.Your journey to a sculpted, refined look starts here—because you deserve to feel your best."
             },
             {
                 name: "Tear Trough Filler",
                 priceRange: "400–500",
                 duration: "45 mins",
-                description: "Reduce under-eye hollows and dark circles for a refreshed, well-rested appearance."
+                description: "Tired of under-eye hollows and dark circles making you look exhausted? Rejuvenate your appearance with advanced treatments designed to restore volume and brighten your eyes.Feel confident, refreshed, and well- rested—because you deserve to look as vibrant as you feel."
             }
         ],
         benefits: [
@@ -233,45 +236,49 @@ export const aestheticServices = [
         treatments: [
             {
                 name: "Laser Hair Removal",
-                description: "Advanced laser hair removal suitable for all skin types, providing long-lasting results.",
-                subtypes: [
-                    {
-                        type: "Small Area (e.g., Upper Lip)",
-                        price: 40,
-                        duration: "15 mins",
-                        description: "Precise treatment for small, delicate areas of unwanted hair."
-                    },
-                    {
-                        type: "Medium Area (e.g., Bikini Line)",
-                        price: 80,
-                        duration: "30 mins",
-                        description: "Targeted treatment for medium-sized areas with consistent results."
-                    },
-                    {
-                        type: "Large Area (e.g., Legs)",
-                        price: 150,
-                        duration: "60 mins",
-                        description: "Comprehensive treatment for larger body areas with long-lasting results."
-                    }
-                ]
+                description: "Experience advanced laser hair removal, safe for all skin types, delivering long-lasting, silky- smooth results.Say goodbye to unwanted hair with precision technology designed for comfort and effectiveness.Embrace confidence with a treatment that truly cares for you.",
+                price: "40-150",
+                duration: "15-60 mins",
+                // subtypes: [
+                //     {
+                //         type: "Small Area (e.g., Upper Lip)",
+                //         price: 40,
+                //         duration: "15 mins",
+                //         description: "Precise treatment for small, delicate areas of unwanted hair."
+                //     },
+                //     {
+                //         type: "Medium Area (e.g., Bikini Line)",
+                //         price: 80,
+                //         duration: "30 mins",
+                //         description: "Targeted treatment for medium-sized areas with consistent results."
+                //     },
+                //     {
+                //         type: "Large Area (e.g., Legs)",
+                //         price: 150,
+                //         duration: "60 mins",
+                //         description: "Comprehensive treatment for larger body areas with long-lasting results."
+                //     }
+                // ]
             },
             {
                 name: "Skin Rejuvenation",
-                description: "Advanced laser treatments for various skin concerns",
-                subtypes: [
-                    {
-                        type: "IPL Photofacial",
-                        price: 200,
-                        duration: "45 mins",
-                        description: "Treatment for sun damage, age spots, and uneven skin tone."
-                    },
-                    {
-                        type: "Fractional Laser",
-                        price: 350,
-                        duration: "60 mins",
-                        description: "Deep skin resurfacing for wrinkles, scars, and texture improvement."
-                    }
-                ]
+                description: "Rediscover radiant, youthful skin with our advanced laser treatments, designed to address a range of skin concerns with precision and care.Whether you're battling fine lines, pigmentation, or acne scars, our cutting- edge technology revitalises your complexion, restoring confidence and natural beauty.Safe, effective, and tailored to your needs—because your skin deserves the best.",
+                price: "200-350",
+                duration: "45-60 mins",
+                // subtypes: [
+                //     {
+                //         type: "IPL Photofacial",
+                //         price: 200,
+                //         duration: "45 mins",
+                //         description: "Treatment for sun damage, age spots, and uneven skin tone."
+                //     },
+                //     {
+                //         type: "Fractional Laser",
+                //         price: 350,
+                //         duration: "60 mins",
+                //         description: "Deep skin resurfacing for wrinkles, scars, and texture improvement."
+                //     }
+                // ]
             }
         ],
         benefits: [
@@ -319,19 +326,19 @@ export const aestheticServices = [
                 name: "Cryolipolysis (Fat Freezing)",
                 price: 350,
                 duration: "60-90 mins",
-                description: "Advanced fat reduction treatment that freezes and eliminates stubborn fat cells permanently."
+                description: "Struggling with stubborn fat that won’t budge? Cryolipolysis, also known as fat freezing, is an advanced, non- invasive treatment that safely targets and eliminates fat cells for good.Say goodbye to unwanted bulges with this clinically proven, pain- free solution—because you deserve to feel confident in your own skin."
             },
             {
                 name: "Radiofrequency Skin Tightening",
                 price: 150,
                 duration: "45 mins",
-                description: "Non-invasive treatment that tightens and firms skin through controlled heating."
+                description: "Radiofrequency (RF) skin tightening is a non-invasive treatment that firms and rejuvenates the skin using controlled heat energy.By stimulating collagen and elastin production, it effectively reduces fine lines, tightens sagging skin, and improves overall texture.Suitable for the face, neck, and body, it targets concerns such as jowls, wrinkles, and skin laxity without discomfort or downtime.This safe, pain- free procedure delivers natural, long - lasting results, making it an excellent alternative to surgery. Whether you want to sculpt your jawline, smooth wrinkles, or achieve firmer skin, RF skin tightening provides a comfortable and effective solution for a youthful, radiant appearance."
             },
             {
                 name: "Cellulite Reduction Therapy",
                 price: 200,
                 duration: "60 mins",
-                description: "Targeted treatment to reduce the appearance of cellulite and improve skin texture."
+                description: "Reveal smoother, firmer skin with our cutting-edge Cellulite Reduction Therapy, designed to visibly reduce dimples and improve skin texture.Using advanced techniques, this non - invasive treatment targets stubborn cellulite, enhancing circulation and promoting collagen production for a more toned, youthful appearance. Safe, effective, and pain- free, it helps contour problem areas such as thighs, buttocks, and hips, leaving your skin feeling revitalised and beautifully refined.Perfect for those seeking a confidence boost, our expert- led approach delivers noticeable results with minimal downtime.Embrace the beauty of silky - smooth skin—book your personalised consultation today and take the first step towards flawless confidence!"
             }
         ],
         benefits: [
@@ -380,14 +387,14 @@ export const aestheticServices = [
                 price: 120,
                 package: { courseOf5: 550 },
                 duration: "45 mins",
-                description: "Advanced therapy using medical-grade ozone to boost immunity and promote healing."
+                description: "Ozone therapy is a cutting-edge treatment that harnesses the power of medical-grade ozone to revitalise the body, strengthen the immune system, and accelerate natural healing.This advanced therapy enhances oxygen delivery to tissues, combats harmful pathogens, reduces inflammation, and stimulates cellular regeneration.Widely used for its therapeutic benefits, ozone therapy supports overall well- being, aids in detoxification, and promotes faster recovery from chronic conditions, infections, and fatigue.Safe and effective, it is a natural approach to optimising health and vitality. Experience the rejuvenating effects of ozone therapy and unlock your body’s full potential for healing and wellness."
             },
             {
                 name: "Oxygen Therapy (Hyperbaric)",
                 price: 100,
                 package: { courseOf5: 450 },
                 duration: "60 mins",
-                description: "Pure oxygen therapy in a pressurized environment to enhance healing and recovery."
+                description: "Oxygen Therapy is a cutting-edge treatment that harnesses the power of medical-grade ozone to revitalise the body, strengthen immunity, and accelerate healing.By delivering a precise concentration of ozone, this advanced therapy enhances oxygen utilisation, combats harmful pathogens, and stimulates the body’s natural repair mechanisms. Known for its anti- inflammatory, antibacterial, and detoxifying properties, ozone therapy can support recovery from chronic illnesses, boost energy levels, and promote overall well - being.Whether used for pain relief, immune support, or skin rejuvenation, this safe and effective treatment offers a natural way to restore health and vitality.Experience the healing power of oxygen like never before."
             }
         ],
         benefits: [
@@ -429,37 +436,37 @@ export const aestheticServices = [
             after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
         },
         image: "https://knoxwellnessexperience.com/wp-content/uploads/2023/12/shutterstock_1760535659-2.jpg",
-        overview: "Our customized IV therapy treatments deliver essential vitamins, minerals, and nutrients directly into your bloodstream for maximum absorption and optimal health benefits.",
+        overview: "Our bespoke IV therapy treatments infuse vital vitamins, minerals, and nutrients directly into your bloodstream, ensuring maximum absorption for enhanced wellness, energy, and vitality—helping you feel rejuvenated, rehydrated, and at your absolute best.",
         treatments: [
             {
                 name: "Hydration Drip",
                 price: 150,
                 duration: "45 mins",
-                description: "Rapid rehydration with electrolytes and minerals for optimal cellular function."
+                description: "Experience rapid and effective rehydration with a perfectly balanced infusion of essential electrolytes and minerals, designed to restore hydration levels, enhance energy, and optimise cellular function for overall vitality."
             },
             {
                 name: "Vitamin C Boost",
                 price: 160,
                 duration: "45 mins",
-                description: "High-dose vitamin C for immune support and antioxidant protection."
+                description: "Supercharge your immune system with a high-dose infusion of vitamin C, a potent antioxidant known for its ability to strengthen immunity, combat oxidative stress, and promote radiant skin from within."
             },
             {
                 name: "Immune Support Drip",
                 price: 180,
                 duration: "60 mins",
-                description: "Comprehensive blend of vitamins and minerals to strengthen immune function."
+                description: "Give your immune system the ultimate boost with a carefully curated blend of essential vitamins and minerals, expertly formulated to fortify your body’s natural defences and enhance overall wellness."
             },
             {
                 name: "Anti-Ageing Cocktail",
                 price: 200,
                 duration: "60 mins",
-                description: "Premium blend of antioxidants and nutrients for cellular repair and rejuvenation."
+                description: "Turn back the clock with our luxurious infusion of premium antioxidants and vital nutrients, working at a cellular level to promote deep repair, rejuvenation, and a youthful, glowing complexion."
             },
             {
                 name: "Detox Drip (Glutathione)",
                 price: 200,
                 duration: "60 mins",
-                description: "Powerful antioxidant therapy for detoxification and skin brightening."
+                description: "Revitalise your body with the ultimate detox therapy, featuring the powerful antioxidant glutathione to eliminate toxins, enhance liver function, and brighten your skin for a naturally luminous appearance."
             }
         ],
         benefits: [
@@ -505,21 +512,21 @@ export const aestheticServices = [
         treatments: [
             {
                 name: "Laser Acne Treatment",
-                priceRange: "150–250",
+                price: "150–250",
                 duration: "45 mins",
-                description: "Targeted laser therapy to reduce active acne and prevent future breakouts."
+                description: "Experience the power of targeted laser therapy designed to combat active acne and prevent future breakouts.This advanced treatment works by reducing inflammation, eliminating acne- causing bacteria, and regulating oil production, leaving your skin clearer, healthier, and blemish - free."
             },
             {
                 name: "Scar Revision Therapy",
                 price: 300,
                 duration: "60 mins",
-                description: "Advanced treatment to minimize the appearance of acne scars and improve skin texture."
+                description: "Rediscover smooth, flawless skin with cutting-edge scar revision therapy. This specialised laser treatment effectively minimises the appearance of acne scars by stimulating collagen production and resurfacing the skin, improving both texture and tone for a more even, radiant complexion."
             },
             {
                 name: "Carbon Laser Peel (Hollywood Peel)",
                 price: 200,
                 duration: "45 mins",
-                description: "Innovative laser treatment for skin rejuvenation and pore refinement."
+                description: "Revitalise your skin with the luxurious Carbon Laser Peel, also known as the Hollywood Peel.This innovative treatment deeply purifies, tightens pores, and enhances skin brightness, leaving you with an instantly refreshed, youthful glow.Ideal for dull, oily, or congested skin, it provides a non- invasive yet highly effective solution for a flawless complexion."
             }
         ],
         benefits: [
@@ -565,15 +572,15 @@ export const aestheticServices = [
         treatments: [
             {
                 name: "HIFU (High-Intensity Focused Ultrasound)",
-                priceRange: "500–800",
+                price: "500–800",
                 duration: "60-90 mins",
-                description: "Non-surgical facelift using focused ultrasound energy for deep tissue tightening."
+                description: "A non-invasive facial rejuvenation procedure that utilises advanced focused ultrasound energy to stimulate deep tissue tightening.This cutting- edge technology penetrates the skin at precise depths, promoting collagen production and enhancing skin elasticity. The result is a firmer, more youthful appearance without the need for surgery or downtime."
             },
             {
                 name: "Radiofrequency Skin Tightening (Face)",
                 price: 200,
                 duration: "45 mins",
-                description: "Controlled heating therapy to tighten skin and improve facial contours."
+                description: "A professional-grade skin tightening treatment that employs controlled radiofrequency energy to gently heat the deeper layers of the skin.This process stimulates collagen and elastin production, effectively improving skin firmness, reducing fine lines, and enhancing overall facial contours.Suitable for individuals seeking a non- surgical solution to achieve a smoother, lifted, and more revitalised complexion."
             }
         ],
         benefits: [

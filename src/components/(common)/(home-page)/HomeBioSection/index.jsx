@@ -29,9 +29,9 @@ const HomeBioSection = () => {
               </h2>
             </div>
             <p>
-              Experience world-class cosmetic surgery with cutting-edge
-              techniques and personalized care. Our expert surgeons ensure
-              exceptional results tailored to your unique needs.
+              Experience world-class cosmetic surgery with state-of-the-art techniques and
+              personalised care. Our expert surgeons deliver exceptional results tailored to your
+              unique needs.
             </p>
             <div>
               <Button onClick={() => navigate("/about")} className="secondary">About the clinic</Button>

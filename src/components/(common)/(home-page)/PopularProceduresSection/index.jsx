@@ -24,12 +24,11 @@ const PopularProceduresSection = () => {
                 <h2 className="text-4xl uppercase">Facelift</h2>
               </div>
               <p className="text-lg">
-                The facelift or Rhytidectomy is the third most common facial
-                plastic surgery worldwide. It effectively tightens sagging skin,
-                smooths wrinkles, and restores youthful contours. Our skilled
-                surgeons use advanced techniques to provide natural-looking
-                results, helping you achieve a refreshed, rejuvenated appearance
-                with minimal downtime.
+                The facelift, or rhytidectomy, is the third most common facial plastic surgery worldwide.
+                It effectively tightens sagging skin, smooths wrinkles, and restores youthful contours.
+                Our highly skilled surgeons utilise advanced techniques to deliver natural-looking
+                results, helping you achieve a refreshed, rejuvenated appearance with minimal
+                downtime.
               </p>
               <div>
                 <Button className="secondary">View Details</Button>

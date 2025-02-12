@@ -1,6 +1,5 @@
 import BodyPartSection from "@/components/(common)/(home-page)/BodyPartSection";
 import BodySurgicalSection from "@/components/(common)/(home-page)/BodySurgicalSection";
-import CredentialsSection from "@/components/(common)/(home-page)/CredentialsSection";
 import DoctorSection from "@/components/(common)/(home-page)/DoctorSection";
 import FaceSurgicalSection from "@/components/(common)/(home-page)/FaceSurgicalSection";
 import HomeBannerBottomSection from "@/components/(common)/(home-page)/HomeBannerBottomSection";
@@ -18,7 +17,7 @@ const HomePage = () => {
       {/* <HomeBannerSection /> */}
       <HomeBannerSlideSection />
       <HomeBioSection />
-      <CredentialsSection />
+      {/* <CredentialsSection /> */}
       <BodyPartSection />
       <FaceSurgicalSection />
       <BodySurgicalSection />

@@ -16,7 +16,7 @@ const serviceData = [
     head_1: "Expert Medical Care",
     head_2: "At Your Convenience",
     short_description:
-      "Experience comprehensive healthcare with our expert GP services, offering personalized medical attention in a comfortable, state-of-the-art facility.",
+      "Experience comprehensive healthcare with our expert GP services, offering personalized medical attention in a comfortable, state- of - the - art facility.",
     button_1: "Free Consultation",
     button_2: "See More",
     link: "/private_gp_clinic",
@@ -34,7 +34,7 @@ const serviceData = [
     head_1: "Enhance Your Natural Beauty",
     head_2: "With Advanced Treatments",
     short_description:
-      "Transform your appearance with our advanced aesthetic treatments, delivered by skilled professionals using cutting-edge technology and proven techniques.",
+      "Transform your appearance with our advanced aesthetic treatments, delivered by highly skilled professionals using state- of - the - art technology and proven techniques.",
     button_1: "Free Consultation",
     button_2: "See More",
     link: "/aesthetic_clinic",
@@ -48,7 +48,7 @@ const serviceData = [
     head_1: "Personalized Care",
     head_2: "At Your Service 24/7",
     short_description:
-      "Experience luxury healthcare with our premium concierge service, providing round-the-clock access to medical care and personalized attention whenever you need it.",
+      "Experience luxury healthcare with our premium concierge service, offering round-the-clock access to medical care and personalised attention whenever you require it.",
     button_1: "Free Consultation",
     button_2: "See More",
     link: "/concierge_service",
