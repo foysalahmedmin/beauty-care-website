@@ -8,6 +8,46 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      (function () {
+        // Create widget container
+        const container = document.createElement("div");
+        container.id = "social-ai-chat-widget";
+        container.style.cssText =
+          "position: fixed; bottom: 20px; right: 20px; z-index: 9999;";
+
+        // Create chat button
+        const button = document.createElement("button");
+        button.innerHTML =
+          '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>';
+        button.style.cssText =
+          "width: 60px; height: 60px; border-radius: 30px; background: #0084ff; color: white; border: none; cursor: pointer; box-shadow: 0 2px 12px rgba(0,0,0,0.1); display: flex; align-items: center; justify-content: center; transition: transform 0.2s;";
+
+        // Create chat iframe
+        const iframe = document.createElement("iframe");
+        iframe.src = "http://localhost:5173/widget/67a89dc1fe48d31b392a1b10";
+        iframe.style.cssText =
+          "width: 350px; height: 500px; border: none; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: none; background: white; margin-bottom: 10px;";
+
+        // Add hover effect
+        button.onmouseover = () => (button.style.transform = "scale(1.1)");
+        button.onmouseout = () => (button.style.transform = "scale(1)");
+
+        // Toggle chat on button click
+        let isOpen = false;
+        button.onclick = () => {
+          isOpen = !isOpen;
+          iframe.style.display = isOpen ? "block" : "none";
+        };
+
+        // Add elements to container
+        container.appendChild(iframe);
+        container.appendChild(button);
+
+        // Add container to body
+        document.body.appendChild(container);
+      })();
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

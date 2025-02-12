@@ -1,8 +1,14 @@
+import BookingModal from "@/components/modals/BookingModal";
 import { Button } from "@/components/ui/Button";
 import { Dot } from "lucide-react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const HomeBannerSlide = ({ data }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOpenModal = () => setIsModalOpen(true);
+  const handleCloseModal = () => setIsModalOpen(false);
   const navigate = useNavigate();
   return (
     <div
@@ -23,13 +29,13 @@ const HomeBannerSlide = ({ data }) => {
               </p>
             </div>
             <div className="flex items-center justify-center gap-4">
-              <Button className="primary cursor-pointer" variant="default">
+              <Button onClick={handleOpenModal} className="primary cursor-pointer" variant="default">
                 {data?.button_1}
               </Button>
               <Button
                 className="hover:bg-primary/75 hover:text-primary-foreground cursor-pointer"
                 variant="default"
-                onClick={() => navigate(data?.button_2_link)}
+                onClick={() => navigate(data?.link)}
               >
                 {data?.button_2}
               </Button>
@@ -50,6 +56,7 @@ const HomeBannerSlide = ({ data }) => {
           </div>
         </div>
       </div>
+      <BookingModal isOpen={isModalOpen} onClose={handleCloseModal} />
     </div>
   );
 };
