@@ -3,11 +3,11 @@ export const aestheticServices = [
         category: "Facial Rejuvenation Treatments",
         slug: "facial_rejuvenation_treatments",
         description: "Revitalize your skin with our advanced facial treatments, combining cutting-edge technology with luxurious skincare for a radiant, youthful complexion.",
-        image: "https://www.ethylsnyc.com/wp-content/uploads/2021/04/Skin-rejuvenation-treatment-and-its-benefits.jpg",
+        image: "/images/shut/treatments/1700667661.jpg",
         overview: "Rediscover your skin’s natural radiance with our bespoke facial rejuvenation treatments.Combining advanced technology with expert medical care, we tailor each treatment to your unique skin type and concerns.Whether you seek a youthful glow or targeted skin restoration, we prioritise your confidence and comfort every step of the way.",
         compare: {
-            before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
-            after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
+            before: "/images/shut/treatments/2000322434_a.jpg",
+            after: "/images/shut/treatments/2000322434.jpg"
         },
         treatments: [
             {
@@ -89,7 +89,8 @@ export const aestheticServices = [
         category: "Anti-Wrinkle Injections (Botox)",
         slug: "botox",
         description: "Smooth away fine lines and wrinkles with our precision anti-wrinkle treatments, delivered by expert practitioners for natural-looking results.",
-        image: "https://images.squarespace-cdn.com/content/v1/61af7c40170a5d7dd8863ff2/7fdd6cf3-356d-47ae-b1be-84a7ca5752dc/woman-receiving-anti-wrinkle-injection.jpg",
+        // image: "https://images.squarespace-cdn.com/content/v1/61af7c40170a5d7dd8863ff2/7fdd6cf3-356d-47ae-b1be-84a7ca5752dc/woman-receiving-anti-wrinkle-injection.jpg",
+        image: "/images/shut/treatments/2172829221.jpg",
         overview: "Our expert practitioners use top-quality anti-wrinkle injections to smooth fine lines and wrinkles while preserving your natural expressions.With a gentle, personalised approach, we ensure subtle, youthful results that enhance your confidence.You're in safe, skilled hands—because you deserve to look and feel your best.",
         compare: {
             before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
@@ -155,7 +156,8 @@ export const aestheticServices = [
         category: "Dermal Fillers",
         slug: "dermal_fillers",
         description: "Restore volume and enhance your natural features with our premium dermal fillers, creating subtle, beautiful results tailored to your desires.",
-        image: "https://www.beautifi.com/wp-content/uploads/2021/12/23.-Dermal-Fillers.jpeg",
+        // image: "https://www.beautifi.com/wp-content/uploads/2021/12/23.-Dermal-Fillers.jpeg",
+        image: "/images/shut/treatments/568493692.jpg",
         compare: {
             before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
             after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
@@ -231,7 +233,8 @@ export const aestheticServices = [
             before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
             after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
         },
-        image: "https://www.instyle.com/thmb/sSLIVBytnseFMojimQQ3sdw8Gsg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/052623-Laser-facial-treatment-lead-e858389458d54fb29aa80265a30e913d.jpg",
+        // image: "https://www.instyle.com/thmb/sSLIVBytnseFMojimQQ3sdw8Gsg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/052623-Laser-facial-treatment-lead-e858389458d54fb29aa80265a30e913d.jpg",
+        image: "/images/shut/treatments/2471689759.jpg",
         overview: "Our state-of-the-art laser treatments utilize advanced technology to deliver precise, effective results for various concerns, from permanent hair reduction to skin rejuvenation.",
         treatments: [
             {
@@ -319,7 +322,8 @@ export const aestheticServices = [
             before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
             after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
         },
-        image: "https://thehebespa.com/wp-content/uploads/2024/09/image2-2.jpg",
+        // image: "https://thehebespa.com/wp-content/uploads/2024/09/image2-2.jpg",
+        image: "/images/shut/treatments/2429927845.jpg",
         overview: "Our non-invasive body contouring treatments use advanced technology to target stubborn fat deposits and tighten skin, helping you achieve your desired body shape safely and effectively.",
         treatments: [
             {
@@ -379,7 +383,8 @@ export const aestheticServices = [
             before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
             after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
         },
-        image: "https://brainmd.com/blog/wp-content/uploads/Hyperbaric-Oxygen-Therapy.jpg",
+        // image: "https://brainmd.com/blog/wp-content/uploads/Hyperbaric-Oxygen-Therapy.jpg",
+        image: "/images/shut/treatments/1421288867.jpg",
         overview: "Experience the healing power of oxygen with our advanced therapies designed to boost your body's natural healing processes, enhance cellular function, and promote overall wellness.",
         treatments: [
             {
@@ -435,7 +440,8 @@ export const aestheticServices = [
             before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
             after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
         },
-        image: "https://knoxwellnessexperience.com/wp-content/uploads/2023/12/shutterstock_1760535659-2.jpg",
+        // image: "https://knoxwellnessexperience.com/wp-content/uploads/2023/12/shutterstock_1760535659-2.jpg",
+        image: "/images/shut/treatments/2189637307.jpg",
         overview: "Our bespoke IV therapy treatments infuse vital vitamins, minerals, and nutrients directly into your bloodstream, ensuring maximum absorption for enhanced wellness, energy, and vitality—helping you feel rejuvenated, rehydrated, and at your absolute best.",
         treatments: [
             {
@@ -507,7 +513,8 @@ export const aestheticServices = [
             before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
             after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
         },
-        image: "https://sa1s3optim.patientpop.com/assets/images/provider/photos/2556996.jpg",
+        // image: "https://sa1s3optim.patientpop.com/assets/images/provider/photos/2556996.jpg",
+        image: "/images/shut/treatments/1623905548.jpg",
         overview: "Our comprehensive acne and scar treatments combine advanced laser technology with specialized therapies to improve skin texture, reduce scarring, and promote clear, healthy skin.",
         treatments: [
             {
@@ -567,7 +574,8 @@ export const aestheticServices = [
             before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
             after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
         },
-        image: "https://www.americanself.com/wp-content/uploads/2017/04/Whipple-skin-tightning-options.jpg",
+        // image: "https://www.americanself.com/wp-content/uploads/2017/04/Whipple-skin-tightning-options.jpg",
+        image: "/images/shut/treatments/1886061049.jpg",
         overview: "Our advanced skin tightening treatments use cutting-edge technology to stimulate collagen production and restore skin firmness, providing natural-looking results without surgery.",
         treatments: [
             {

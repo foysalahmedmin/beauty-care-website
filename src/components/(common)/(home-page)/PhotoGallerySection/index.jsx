@@ -3,12 +3,15 @@ import { Button } from "@/components/ui/Button";
 const PhotoGallerySection = () => {
   return (
     <section
+      // style={{
+      //   backgroundImage: `url("https://images.squarespace-cdn.com/content/v1/64f83f902d10c760d4813bf4/7dcd0d2c-bb28-43a0-a8e7-643a169b3707/saw.jpeg")`,
+      // }}
       style={{
-        backgroundImage: `url("https://images.squarespace-cdn.com/content/v1/64f83f902d10c760d4813bf4/7dcd0d2c-bb28-43a0-a8e7-643a169b3707/saw.jpeg")`,
+        backgroundImage: `url("/images/shut/gallery/1.jpg")`,
       }}
       className="bg-cover bg-center bg-no-repeat"
     >
-      <div className="bg-black/25">
+      <div className="bg-gray-900/60">
         <div className="dark container grid h-screen max-h-[32rem] grid-cols-1 items-center justify-center text-title md:grid-cols-2 xl:max-h-[40rem]">
           <div className="hidden md:block"></div>
           <div className="dark space-y-4 text-title md:space-y-8">

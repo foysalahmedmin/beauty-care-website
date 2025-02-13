@@ -17,12 +17,14 @@ const NonSurgicalSection = () => {
           <div className="relative aspect-[5/6] w-full overflow-hidden">
             <img
               className="ml-auto size-[calc(100%-10%)] object-contain object-center"
-              src="https://cuteraesthetics.com/wp-content/uploads/2022/05/skin-treatment.jpg"
+              // src="https://cuteraesthetics.com/wp-content/uploads/2022/05/skin-treatment.jpg"
+              src="/images/shut/welcome/1.jpg"
               alt=""
             />
             <img
               className="absolute bottom-0 left-0 size-[40%] object-cover object-center"
-              src="https://www.shutterstock.com/image-photo/highquality-photo-skincare-cosmetics-concept-600nw-2472173333.jpg"
+              // src="https://www.shutterstock.com/image-photo/highquality-photo-skincare-cosmetics-concept-600nw-2472173333.jpg"
+              src="/images/shut/welcome/2.jpg"
               alt=""
             />
           </div>
