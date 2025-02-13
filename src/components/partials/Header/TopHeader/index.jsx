@@ -23,7 +23,7 @@ const TopHeader = ({ isOpen, setIsOpen }) => {
                   className="font-light tracking-widest"
                   onClick={handleOpenModal}
                 >
-                  Book A Visit
+                  Book A Free Consultation
                 </Button>
               </div>
             </div>

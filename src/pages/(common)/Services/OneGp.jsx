@@ -19,7 +19,7 @@ const OneGp = () => {
                     <div className="flex items-center justify-between mb-8">
                         <h2 className="text-3xl font-bold text-gray-800">{gp.name}</h2>
                         <div className="flex items-center gap-4">
-                            <span className="text-lg font-semibold text-gray-600">Duration: {gp.duration}</span>
+                            {/* <span className="text-lg font-semibold text-gray-600">Duration: {gp.duration}</span> */}
                             <span className="text-lg font-semibold text-primary">£{gp.price}</span>
                         </div>
                     </div>

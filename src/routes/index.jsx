@@ -11,6 +11,7 @@ import About from "@/pages/(common)/About";
 import Contact from "@/pages/(common)/Contact";
 import Aesthetic from "@/pages/(common)/Services/Aesthetic";
 import AestheticClinic from "@/pages/(common)/Services/AestheticClinic";
+import Concierge from "@/pages/(common)/Services/Concierge";
 import ConciergeService from "@/pages/(common)/Services/ConciergeService";
 import OneGp from "@/pages/(common)/Services/OneGp";
 import PrivateGp from "@/pages/(common)/Services/PrivateGp";
@@ -55,6 +56,10 @@ export const routes = [
           {
             path: "concierge_service",
             element: <ConciergeService />,
+          },
+          {
+            path: "concierge_service/:slug",
+            element: <Concierge />,
           },
         ],
       },

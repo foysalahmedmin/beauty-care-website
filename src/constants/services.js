@@ -739,4 +739,160 @@ export const gpServices = [
     }
 ];
 
-export const conciergeServices = []
+export const conciergeServices = [
+    {
+        id: 1,
+        name: "24/7 On-Call Doctor & Urgent Care",
+        slug: "24_7_on_call_doctor_and_urgent_care",
+        image: "https://my-doc.com/wp-content/uploads/2020/04/examining-medical-check-up-singapore.jpg",
+        description: "Immediate in-room consultations and prescription services",
+        benefits: [
+            "24/7 doctor availability",
+            "In-room medical consultations",
+            "Emergency prescription services",
+            "Urgent care response"
+        ],
+        faqs: [
+            {
+                question: "How quickly can I get a doctor to my location?",
+                answer: "Our on-call doctors typically arrive within 30-60 minutes of your request, available 24/7 including holidays and weekends."
+            },
+            {
+                question: "Can the doctor prescribe medication during the visit?",
+                answer: "Yes, our doctors can prescribe necessary medications during the consultation and arrange for immediate delivery to your location."
+            },
+            {
+                question: "What types of urgent care services are covered?",
+                answer: "We cover a wide range of urgent care needs including fever, infections, injuries, allergic reactions, and other acute medical conditions."
+            },
+            {
+                question: "Is the service available for both adults and children?",
+                answer: "Yes, our doctors are qualified to treat patients of all ages, from infants to elderly patients."
+            }
+        ]
+    },
+    {
+        id: 2,
+        name: "Wellness & Preventative Health",
+        slug: "wellness_and_preventative_health",
+        image: "https://my-doc.com/wp-content/uploads/2020/04/examining-medical-check-up-singapore.jpg",
+        description: "Comprehensive wellness services and preventative care programs",
+        benefits: [
+            "Health screenings",
+            "Jet lag recovery programs",
+            "IV therapy treatments",
+            "Personalized nutrition plans"
+        ],
+        faqs: [
+            {
+                question: "What types of health screenings do you offer?",
+                answer: "We offer comprehensive health screenings including blood work, cardiac evaluation, cancer screening, and full body check-ups tailored to your age and risk factors."
+            },
+            {
+                question: "How does the IV therapy treatment work?",
+                answer: "Our IV therapy treatments are customized to your needs, delivering vitamins, minerals, and hydration directly into your bloodstream for maximum absorption and benefit."
+            },
+            {
+                question: "What's included in the jet lag recovery program?",
+                answer: "Our jet lag program includes light therapy, sleep scheduling, nutrition guidance, and optional IV hydration to help you adjust to new time zones quickly."
+            },
+            {
+                question: "How are nutrition plans customized?",
+                answer: "Our nutritionists create personalized plans based on your health goals, dietary preferences, lifestyle, and any medical conditions you may have."
+            }
+        ]
+    },
+    {
+        id: 3,
+        name: "VIP & Executive Health",
+        slug: "vip_and_executive_health",
+        image: "https://my-doc.com/wp-content/uploads/2020/04/examining-medical-check-up-singapore.jpg",
+        description: "Premium medical care and specialist access for executives",
+        benefits: [
+            "Private medical treatment",
+            "Access to top specialists",
+            "Executive health programs",
+            "Personalized care protocols"
+        ],
+        faqs: [
+            {
+                question: "What makes the VIP service different from regular medical care?",
+                answer: "Our VIP service offers priority access, extended consultation times, direct specialist referrals, and completely private facilities with enhanced privacy protocols."
+            },
+            {
+                question: "How quickly can I get an appointment with a specialist?",
+                answer: "VIP members typically receive specialist appointments within 24-48 hours, with same-day appointments available for urgent cases."
+            },
+            {
+                question: "What's included in the executive health program?",
+                answer: "The executive program includes comprehensive health assessments, stress management, preventive care, and ongoing health monitoring tailored to busy executives."
+            },
+            {
+                question: "Can you accommodate my busy schedule?",
+                answer: "Yes, we offer flexible scheduling including early morning, evening, and weekend appointments, as well as telemedicine options when appropriate."
+            }
+        ]
+    },
+    {
+        id: 4,
+        name: "Medical Travel & Recovery Planning",
+        slug: "medical_travel_and_recovery_planning",
+        image: "https://my-doc.com/wp-content/uploads/2020/04/examining-medical-check-up-singapore.jpg",
+        description: "Complete medical tourism and recovery coordination services",
+        benefits: [
+            "Medical tourism coordination",
+            "Post-surgery recovery planning",
+            "Wellness retreat arrangements",
+            "Recovery monitoring"
+        ],
+        faqs: [
+            {
+                question: "How do you coordinate medical travel arrangements?",
+                answer: "We handle everything from choosing the right medical facility and specialist to travel arrangements, accommodation, and local transportation."
+            },
+            {
+                question: "What support is provided during recovery?",
+                answer: "We provide 24/7 nursing care, rehabilitation services, medication management, and regular progress monitoring throughout your recovery period."
+            },
+            {
+                question: "Can you arrange wellness retreats abroad?",
+                answer: "Yes, we partner with luxury wellness facilities worldwide to create customized retreat experiences including medical spa treatments, fitness programs, and holistic healing."
+            },
+            {
+                question: "What follow-up care is provided after treatment?",
+                answer: "We provide comprehensive follow-up care including regular check-ups, telemedicine consultations, and coordination with your local healthcare providers."
+            }
+        ]
+    },
+    {
+        id: 5,
+        name: "Mental Health & Wellbeing",
+        slug: "mental_health_and_wellbeing",
+        image: "https://my-doc.com/wp-content/uploads/2020/04/examining-medical-check-up-singapore.jpg",
+        description: "Comprehensive mental health and wellness support",
+        benefits: [
+            "Private psychiatric consultations",
+            "Stress management programs",
+            "Sleep therapy sessions",
+            "Mental wellness coaching"
+        ],
+        faqs: [
+            {
+                question: "How private and confidential are the mental health services?",
+                answer: "We maintain the highest level of confidentiality with private consultation rooms and strict privacy protocols for all mental health services."
+            },
+            {
+                question: "What approaches do you use for stress management?",
+                answer: "We offer a combination of therapeutic approaches including cognitive behavioral therapy, mindfulness training, meditation, and lifestyle coaching."
+            },
+            {
+                question: "How do you treat sleep disorders?",
+                answer: "Our sleep therapy program includes sleep studies, behavioral therapy, medication when necessary, and lifestyle modifications to improve sleep quality."
+            },
+            {
+                question: "Can I receive ongoing mental health support?",
+                answer: "Yes, we offer long-term mental health support with regular check-ins, therapy sessions, and 24/7 crisis support when needed."
+            }
+        ]
+    }
+]

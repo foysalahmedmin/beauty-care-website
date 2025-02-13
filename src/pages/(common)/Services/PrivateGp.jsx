@@ -10,7 +10,7 @@ const PrivateGp = () => {
             <BannerSection
                 title="Private GP Services"
                 description="Expert private GP services with same-day appointments, personalized care, and convenient consultations."
-                image="https://images.squarespace-cdn.com/content/v1/64f83f902d10c760d4813bf4/7dcd0d2c-bb28-43a0-a8e7-643a169b3707/saw.jpeg"
+                image="/images/shut/banner/1.jpg"
             />
             <PrivateCardSection />
             <DoctorSection />
