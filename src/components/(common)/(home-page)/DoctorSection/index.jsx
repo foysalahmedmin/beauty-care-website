@@ -27,7 +27,7 @@ const DoctorSection = () => {
           <div className="relative aspect-[5/6] w-full overflow-hidden md:order-2">
             <img
               className="size-full object-cover object-center"
-              src="https://thechicicon.com/wp-content/uploads/2022/03/Dr.-Cat-Banner-1-1160x773.jpg"
+              src="/images/shut/treatments/1929370055.jpg"
               alt=""
             />
           </div>
@@ -41,7 +41,7 @@ const DoctorSection = () => {
               </h2>
             </div>
             <p className="text-lg">
-              Our board-certified, world-renowned surgeon specialises in advanced anti-ageing
+              Our board-certified, world-renowned specialises in advanced anti-ageing
               procedures, delivering youthful, rejuvenated results with expert care and precision.
             </p>
             <div>

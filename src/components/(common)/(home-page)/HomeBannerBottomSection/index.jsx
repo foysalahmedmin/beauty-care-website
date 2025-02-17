@@ -4,13 +4,13 @@ const HomeBannerBottomSection = () => {
   return (
     <section
       style={{
-        backgroundImage: `url("https://images.squarespace-cdn.com/content/v1/64f83f902d10c760d4813bf4/7dcd0d2c-bb28-43a0-a8e7-643a169b3707/saw.jpeg")`,
+        backgroundImage: `url("/images/shut/treatments/1698866671.jpg")`,
       }}
       className="bg-cover bg-center bg-no-repeat"
     >
       <div className="bg-black/25">
         <div className="dark container grid h-screen max-h-[32rem] grid-cols-1 items-center justify-center text-title md:grid-cols-2 xl:max-h-[40rem]">
-          <div className="hidden md:block"></div>
+
           <div className="dark space-y-4 text-title md:space-y-8">
             <div className="space-y-2">
               <h2 className="text-4xl uppercase md:text-5xl">
@@ -25,6 +25,7 @@ const HomeBannerBottomSection = () => {
               <Button className="primary">Request a consultation </Button>
             </div>
           </div>
+          <div className="hidden md:block"></div>
         </div>
       </div>
     </section>

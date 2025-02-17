@@ -22,7 +22,7 @@ const About = () => {
                         </div>
                         <div className="relative h-[500px] w-full">
                             <img
-                                src="https://therapieclinic.com/_next/image?url=%2Fassets%2Faboutus%2Fabout01.webp&w=828&q=75"
+                                src="https://www.pipcpatients.org/uploads/1/2/9/0/12902828/accept-new-medicare-patients2_orig.jpg"
                                 alt="Our Mission"
                                 className="h-full w-full object-cover rounded-lg"
                             />
@@ -37,7 +37,7 @@ const About = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                         <div className="relative h-[500px] w-full order-2 md:order-1">
                             <img
-                                src="https://therapieclinic.com/_next/image?url=%2Fassets%2Faboutus%2Fabout03.webp&w=828&q=75"
+                                src="https://www.pipcpatients.org/uploads/1/2/9/0/12902828/accept-new-medicare-patients2_orig.jpg"
                                 alt="Our Community"
                                 className="h-full w-full object-cover rounded-lg"
                             />
@@ -146,7 +146,7 @@ const About = () => {
                                         <img
                                             alt="Dr. Sarah Smith"
                                             className="h-auto w-4/6 rounded-full md:w-full"
-                                            src="/assets/new-arrivals/dr.tom.webp"
+                                            src="https://i.pinimg.com/736x/c5/a3/90/c5a3904b38eb241dd03dd30889599dc4.jpg"
                                         />
                                     </div>
                                     <div className="font-Optima text-2xl font-bold tracking-[-1px] text-noir-900 md:text-5xl">4.8</div>
@@ -163,7 +163,7 @@ const About = () => {
                                     <div className="relative mt-5 font-Lato md:mt-0">
                                         <div className="h-80 w-full overflow-hidden overflow-y-scroll md:h-[500px]">
                                             <div className="hidden pb-10 pt-5 text-base md:block">
-                                                I work as both a General Practitioner and an Aesthetic Doctor at Arkangel Clinic. I am passionate about aesthetics and continuously strive to improve my skills and knowledge by attending masterclasses and international conferences.
+                                                I serve as both a  an Aesthetic Doctor at Arkangel Clinic. I am deeply passionate about aesthetics and am committed to continuously enhancing my skills and knowledge through attending masterclasses and international conferences.
                                             </div>
                                             <div className="relative">
                                                 <div className="pb-5">
@@ -210,7 +210,7 @@ const About = () => {
                                             <div className="relative">
                                                 <div className="pb-5">
                                                     <div className="font-semibold">Jane Doe</div>
-                                                    <div className="text-noir-700">Dr Sarah is amazing! She really takes the time to understand what you want and explains everything thoroughly. I couldn't be happier with my results.</div>
+                                                    <div className="text-noir-700">Dr. Sarah is incredible! She takes the time to fully understand your needs and explains everything in detail. I couldn't be more delighted with my results.</div>
                                                     <div className="flex h-10 flex-row pt-2">
                                                         {[1, 2, 3, 4, 5].map((_, i) => (
                                                             <FaStar key={i} className="h-4 w-4 text-[#D4B726]" />

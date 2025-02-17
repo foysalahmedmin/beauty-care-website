@@ -166,31 +166,31 @@ export const aestheticServices = [
         treatments: [
             {
                 name: "Lip Enhancement",
-                priceRange: "250–350",
+                price: "120–150",
                 duration: "45 mins",
                 description: "Enhance your natural beauty with subtle, balanced lip augmentation designed to add volume, refine shape, and improve symmetry.Our expert approach ensures a soft, natural look that complements your features, boosting confidence while maintaining authenticity.Whether you seek a fuller pout or gentle definition, we prioritise your comfort and desired outcome.Because your beauty deserves to shine—naturally."
             },
             {
                 name: "Nasolabial Folds (Smile Lines)",
-                priceRange: "300–400",
+                price: "200–2500",
                 duration: "45 mins",
                 description: "Say goodbye to deep lines from your nose to mouth and restore a youthful, refreshed look.Our expert treatments gently soften these lines, enhancing your natural beauty for a smoother, more vibrant appearance.Let us help you feel confident and rejuvenated—because you deserve to look as young as you feel."
             },
             {
                 name: "Cheek Enhancement",
-                priceRange: "350–450",
+                price: "200–280",
                 duration: "60 mins",
                 description: "Restore lost cheek volume for a youthful, lifted look with our expert treatments. Enhance your natural contours for a refreshed, confident appearance.Tailored to you, with care and precision—because you deserve to feel your best."
             },
             {
                 name: "Jawline Contouring",
-                priceRange: "400–500",
+                price: "150–300",
                 duration: "60 mins",
                 description: "Enhance your jawline for a sharper, more balanced facial profile. Define contours, improve symmetry, and boost confidence with personalised treatments designed for natural - looking results.Your journey to a sculpted, refined look starts here—because you deserve to feel your best."
             },
             {
                 name: "Tear Trough Filler",
-                priceRange: "400–500",
+                price: "180–250",
                 duration: "45 mins",
                 description: "Tired of under-eye hollows and dark circles making you look exhausted? Rejuvenate your appearance with advanced treatments designed to restore volume and brighten your eyes.Feel confident, refreshed, and well- rested—because you deserve to look as vibrant as you feel."
             }
@@ -441,7 +441,7 @@ export const aestheticServices = [
             after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
         },
         // image: "https://knoxwellnessexperience.com/wp-content/uploads/2023/12/shutterstock_1760535659-2.jpg",
-        image: "/images/shut/treatments/2189637307.jpg",
+        image: "/images/shut/treatments/2199051279.jpg",
         overview: "Our bespoke IV therapy treatments infuse vital vitamins, minerals, and nutrients directly into your bloodstream, ensuring maximum absorption for enhanced wellness, energy, and vitality—helping you feel rejuvenated, rehydrated, and at your absolute best.",
         treatments: [
             {
@@ -630,7 +630,7 @@ export const gpServices = [
         description: "Experience personalized medical care with our private GP consultations, where we take the time to understand your health concerns and provide comprehensive solutions.",
         price: 80,
         duration: "30 minutes",
-        image: "https://magnagp.co.uk/wp-content/uploads/2024/09/PrivateMedicalConsultation-1024x683.png",
+        image: "/images/shut/treatments/gp/2512610251.jpg",
         includes: [
             "One-to-one consultation with an experienced GP",
             "Review of medical history",
@@ -667,7 +667,7 @@ export const gpServices = [
         description: "Benefit from longer appointment times allowing for in-depth discussion of complex health issues or multiple concerns in a single visit.",
         price: 150,
         duration: "45 minutes",
-        image: "https://www.myhealthspecialist.com/blog/wp-content/uploads/2016/09/consultation.jpg",
+        image: "/images/shut/treatments/gp/2544677285.jpg",
         includes: [
             "Extended 45-minute consultation",
             "Comprehensive medical review",
@@ -704,7 +704,7 @@ export const gpServices = [
         description: "Get a comprehensive assessment of your health status with our thorough health check, including vital screenings and preventive care recommendations.",
         price: 300,
         duration: "90 minutes",
-        image: "https://my-doc.com/wp-content/uploads/2020/04/examining-medical-check-up-singapore.jpg",
+        image: "/images/shut/treatments/gp/2470630905.jpg",
         includes: [
             "Complete physical examination",
             "Blood pressure and heart check",

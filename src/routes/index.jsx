@@ -1,65 +1,86 @@
+import LoadingSpinner from "@/components/ui/LoadingSpinner";
+import { lazy, Suspense } from "react";
+
 // Layouts
-import CommonLayout from "@/components/layouts/CommonLayout";
-import RootLayout from "@/components/layouts/RootLayout";
-import HomePage from "@/pages/(common)/HomePage";
+const CommonLayout = lazy(() => import("@/components/layouts/CommonLayout"));
+const RootLayout = lazy(() => import("@/components/layouts/RootLayout"));
+const HomePage = lazy(() => import("@/pages/(common)/HomePage"));
 
 // Partials Pages
-import ErrorPage from "@/pages/(partials)/ErrorPage";
+const ErrorPage = lazy(() => import("@/pages/(partials)/ErrorPage"));
 
 // Common Pages
-import About from "@/pages/(common)/About";
-import Contact from "@/pages/(common)/Contact";
-import Aesthetic from "@/pages/(common)/Services/Aesthetic";
-import AestheticClinic from "@/pages/(common)/Services/AestheticClinic";
-import Concierge from "@/pages/(common)/Services/Concierge";
-import ConciergeService from "@/pages/(common)/Services/ConciergeService";
-import OneGp from "@/pages/(common)/Services/OneGp";
-import PrivateGp from "@/pages/(common)/Services/PrivateGp";
+const About = lazy(() => import("@/pages/(common)/About"));
+const Contact = lazy(() => import("@/pages/(common)/Contact"));
+const Aesthetic = lazy(() => import("@/pages/(common)/Services/Aesthetic"));
+const AestheticClinic = lazy(() => import("@/pages/(common)/Services/AestheticClinic"));
+const Concierge = lazy(() => import("@/pages/(common)/Services/Concierge"));
+const ConciergeService = lazy(() => import("@/pages/(common)/Services/ConciergeService"));
+const OneGp = lazy(() => import("@/pages/(common)/Services/OneGp"));
+const PrivateGp = lazy(() => import("@/pages/(common)/Services/PrivateGp"));
+const PrivacyPolicy = lazy(() => import("@/pages/(common)/PrivacyPolicy"));
+const Terms = lazy(() => import("@/pages/(common)/Terms"));
 
 export const routes = [
   {
     path: "/",
-    element: <RootLayout />,
-    errorElement: <ErrorPage />,
+    element: <Suspense fallback={<LoadingSpinner />}><RootLayout /></Suspense>,
+    errorElement: <Suspense fallback={<LoadingSpinner />}><ErrorPage /></Suspense>,
     children: [
       {
-        element: <CommonLayout />,
+        element: <Suspense fallback={<LoadingSpinner />}><CommonLayout /></Suspense>,
         children: [
           {
             index: true,
-            element: <HomePage />,
+            element: <Suspense fallback={<LoadingSpinner />}><HomePage /></Suspense>,
           },
           {
             path: "private_gp_clinic",
-            element: <PrivateGp />,
+            element: <Suspense fallback={<LoadingSpinner />}><PrivateGp /></Suspense>,
           },
           {
             path: "contact",
-            element: <Contact />,
+            element: <Suspense fallback={<LoadingSpinner />}><Contact /></Suspense>,
           },
           {
             path: "about",
-            element: <About />,
+            element: <Suspense fallback={<LoadingSpinner />}><About /></Suspense>,
+          },
+          {
+            path: "terms",
+            element: <Suspense fallback={<LoadingSpinner />}><Terms /></Suspense>,
+          },
+          {
+            path: "privacy-policy",
+            element: <Suspense fallback={<LoadingSpinner />}><PrivacyPolicy /></Suspense>,
           },
           {
             path: "private_gp_clinic/:slug",
-            element: <OneGp />,
+            element: <Suspense fallback={<LoadingSpinner />}><OneGp /></Suspense>,
           },
           {
             path: "aesthetic_clinic",
-            element: <AestheticClinic />,
+            element: <Suspense fallback={<LoadingSpinner />}><AestheticClinic /></Suspense>,
           },
           {
             path: "aesthetic_clinic/:slug",
-            element: <Aesthetic />,
+            element: <Suspense fallback={<LoadingSpinner />}><Aesthetic /></Suspense>,
           },
           {
             path: "concierge_service",
-            element: <ConciergeService />,
+            element: <Suspense fallback={<LoadingSpinner />}><ConciergeService /></Suspense>,
           },
           {
             path: "concierge_service/:slug",
-            element: <Concierge />,
+            element: <Suspense fallback={<LoadingSpinner />}><Concierge /></Suspense>,
+          },
+          {
+            path: "privacy-policy",
+            element: <Suspense fallback={<LoadingSpinner />}><PrivacyPolicy /></Suspense>,
+          },
+          {
+            path: "terms",
+            element: <Suspense fallback={<LoadingSpinner />}><Terms /></Suspense>,
           },
         ],
       },
