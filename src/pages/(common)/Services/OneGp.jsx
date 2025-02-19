@@ -1,9 +1,15 @@
+import BookingModal from "@/components/modals/BookingModal";
 import BannerSection from "@/components/partials/Sections/BannerSection";
 import { gpServices } from "@/constants/services";
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 
 const OneGp = () => {
     const { slug } = useParams();
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const handleOpenModal = () => setIsModalOpen(true);
+    const handleCloseModal = () => setIsModalOpen(false);
     const gp = gpServices.find((service) => service.slug === slug);
     return (
         <main className="min-h-screen">
@@ -71,11 +77,11 @@ const OneGp = () => {
 
                 {/* CTA */}
                 <div className="text-center">
-                    <button className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-dark transition-colors">
-                        Book Appointment
-                    </button>
+                    <button onClick={handleOpenModal} className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-dark transition-colors">
+                        Book Consultation         </button>
                 </div>
             </div>
+            <BookingModal isOpen={isModalOpen} onClose={handleCloseModal} />
         </main>
     );
 };

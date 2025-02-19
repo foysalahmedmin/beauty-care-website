@@ -93,8 +93,8 @@ export const aestheticServices = [
         image: "/images/shut/treatments/2172829221.jpg",
         overview: "Our expert practitioners use top-quality anti-wrinkle injections to smooth fine lines and wrinkles while preserving your natural expressions.With a gentle, personalised approach, we ensure subtle, youthful results that enhance your confidence.You're in safe, skilled hands—because you deserve to look and feel your best.",
         compare: {
-            before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
-            after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
+            before: "/images/shut/botox/1807083691_before.jpg",
+            after: "/images/shut/botox/1807083691_after.jpg"
         },
         treatments: [
             {
@@ -159,8 +159,8 @@ export const aestheticServices = [
         // image: "https://www.beautifi.com/wp-content/uploads/2021/12/23.-Dermal-Fillers.jpeg",
         image: "/images/shut/treatments/568493692.jpg",
         compare: {
-            before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
-            after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
+            before: "/images/shut/dermal/1517806163_before.jpg",
+            after: "/images/shut/dermal/1517806163_after.jpg"
         },
         overview: "Enhance your natural beauty with our premium dermal filler treatments, expertly performed by skilled practitioners using the highest quality products.We prioritise your comfort and confidence, ensuring subtle, natural- looking results that maintain facial harmony.Feel your best with safe, professional care tailored to you.",
         treatments: [
@@ -380,8 +380,8 @@ export const aestheticServices = [
         slug: "ozone_and_oxygen_therapies",
         description: "Boost your body's natural healing and rejuvenation with our advanced oxygen therapies, promoting wellness from the inside out.",
         compare: {
-            before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
-            after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
+            before: "/images/shut/ozone/2421413813-before.jpg",
+            after: "/images/shut/ozone/2421413813-after.jpg"
         },
         // image: "https://brainmd.com/blog/wp-content/uploads/Hyperbaric-Oxygen-Therapy.jpg",
         image: "/images/shut/treatments/1421288867.jpg",
@@ -437,8 +437,8 @@ export const aestheticServices = [
         slug: "iv_therapy_and_vitamin_drips",
         description: "Revitalize your body with our customized IV therapy treatments, delivering essential nutrients directly for optimal health and wellness.",
         compare: {
-            before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
-            after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
+            before: "/images/shut/iv/685047631.jpg",
+            after: "/images/shut/iv/197180912.jpg"
         },
         // image: "https://knoxwellnessexperience.com/wp-content/uploads/2023/12/shutterstock_1760535659-2.jpg",
         image: "/images/shut/treatments/2199051279.jpg",
@@ -510,8 +510,8 @@ export const aestheticServices = [
         slug: "acne_and_scar_treatments",
         description: "Achieve clearer, smoother skin with our specialized acne and scar treatments, using advanced techniques to restore your skin's natural beauty.",
         compare: {
-            before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
-            after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
+            before: "/images/shut/acne/2442701431-before.jpg",
+            after: "/images/shut/acne/2442701431-after.jpg"
         },
         // image: "https://sa1s3optim.patientpop.com/assets/images/provider/photos/2556996.jpg",
         image: "/images/shut/treatments/1623905548.jpg",
@@ -571,8 +571,8 @@ export const aestheticServices = [
         description: "Restore your skin's firmness and elasticity with our innovative tightening treatments, delivering visible results without surgery.",
         slug: "skin_tightening_treatments",
         compare: {
-            before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
-            after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
+            before: "/images/shut/skin-tigh/1337765474-before.jpg",
+            after: "/images/shut/skin-tigh/1337765474-after.jpg"
         },
         // image: "https://www.americanself.com/wp-content/uploads/2017/04/Whipple-skin-tightning-options.jpg",
         image: "/images/shut/treatments/1886061049.jpg",
@@ -744,7 +744,7 @@ export const conciergeServices = [
         id: 1,
         name: "24/7 On-Call Doctor & Urgent Care",
         slug: "24_7_on_call_doctor_and_urgent_care",
-        image: "https://my-doc.com/wp-content/uploads/2020/04/examining-medical-check-up-singapore.jpg",
+        image: "/images/shut/con/2410279165.jpg",
         description: "Immediate in-room consultations and prescription services",
         benefits: [
             "24/7 doctor availability",
@@ -775,7 +775,7 @@ export const conciergeServices = [
         id: 2,
         name: "Wellness & Preventative Health",
         slug: "wellness_and_preventative_health",
-        image: "https://my-doc.com/wp-content/uploads/2020/04/examining-medical-check-up-singapore.jpg",
+        image: "/images/shut/con/1974998387.jpg",
         description: "Comprehensive wellness services and preventative care programs",
         benefits: [
             "Health screenings",
@@ -806,7 +806,7 @@ export const conciergeServices = [
         id: 3,
         name: "VIP & Executive Health",
         slug: "vip_and_executive_health",
-        image: "https://my-doc.com/wp-content/uploads/2020/04/examining-medical-check-up-singapore.jpg",
+        image: "/images/shut/con/1902702202.jpg",
         description: "Premium medical care and specialist access for executives",
         benefits: [
             "Private medical treatment",
@@ -837,7 +837,7 @@ export const conciergeServices = [
         id: 4,
         name: "Medical Travel & Recovery Planning",
         slug: "medical_travel_and_recovery_planning",
-        image: "https://my-doc.com/wp-content/uploads/2020/04/examining-medical-check-up-singapore.jpg",
+        image: "/images/shut/con/1641857584.jpg",
         description: "Complete medical tourism and recovery coordination services",
         benefits: [
             "Medical tourism coordination",
@@ -868,7 +868,7 @@ export const conciergeServices = [
         id: 5,
         name: "Mental Health & Wellbeing",
         slug: "mental_health_and_wellbeing",
-        image: "https://my-doc.com/wp-content/uploads/2020/04/examining-medical-check-up-singapore.jpg",
+        image: "/images/shut/con/2121688343.jpg",
         description: "Comprehensive mental health and wellness support",
         benefits: [
             "Private psychiatric consultations",

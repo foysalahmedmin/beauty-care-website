@@ -8,8 +8,6 @@ const FaceSurgicalSection = () => {
         <div className="grid grid-cols-1 items-center gap-16 md:grid-cols-2">
           <div className="relative aspect-[5/6] w-full overflow-hidden md:order-2">
             <ReactCompareImage
-              // leftImage="https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg"
-              // rightImage="https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
               leftImage="/images/shut/face_s/1.jpg"
               rightImage="/images/shut/face_s/2.jpg"
             />

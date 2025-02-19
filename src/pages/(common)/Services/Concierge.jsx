@@ -1,8 +1,14 @@
+import BookingModal from "@/components/modals/BookingModal";
 import BannerSection from "@/components/partials/Sections/BannerSection";
 import { conciergeServices } from "@/constants/services";
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 const Concierge = () => {
     const { slug } = useParams();
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const handleOpenModal = () => setIsModalOpen(true);
+    const handleCloseModal = () => setIsModalOpen(false);
     const concierge = conciergeServices.find((service) => service.slug === slug);
     return (
         <main className="min-h-screen">
@@ -103,11 +109,12 @@ const Concierge = () => {
 
                 {/* CTA */}
                 <div className="text-center">
-                    <button className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-dark transition-colors">
+                    <button onClick={handleOpenModal} className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-dark transition-colors">
                         Book Consultation
                     </button>
                 </div>
             </div>
+            <BookingModal isOpen={isModalOpen} onClose={handleCloseModal} />
         </main>
     );
 };

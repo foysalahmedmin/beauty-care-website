@@ -5,11 +5,9 @@ import FaceSurgicalSection from "@/components/(common)/(home-page)/FaceSurgicalS
 import HomeBannerBottomSection from "@/components/(common)/(home-page)/HomeBannerBottomSection";
 import HomeBannerSlideSection from "@/components/(common)/(home-page)/HomeBannerSlideSection";
 import HomeBioSection from "@/components/(common)/(home-page)/HomeBioSection";
-import NewsOfferSection from "@/components/(common)/(home-page)/NewsOfferSection";
 import NonSurgicalSection from "@/components/(common)/(home-page)/NonSurgicalSection";
 import PhotoGallerySection from "@/components/(common)/(home-page)/PhotoGallerySection";
 import PopularProceduresSection from "@/components/(common)/(home-page)/PopularProceduresSection";
-import TestimonialSection from "@/components/(common)/(home-page)/TestimonialSection";
 
 const HomePage = () => {
   return (
@@ -23,11 +21,11 @@ const HomePage = () => {
       <BodySurgicalSection />
       <PopularProceduresSection />
       <PhotoGallerySection />
-      <TestimonialSection />
+      {/* <TestimonialSection /> */}
       <NonSurgicalSection />
       <DoctorSection />
       <HomeBannerBottomSection />
-      <NewsOfferSection />
+      {/* <NewsOfferSection /> */}
     </main>
   );
 };

@@ -1,6 +1,12 @@
+import BookingModal from "@/components/modals/BookingModal";
 import { Button } from "@/components/ui/Button";
+import { useState } from "react";
 
 const HomeBannerBottomSection = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOpenModal = () => setIsModalOpen(true);
+  const handleCloseModal = () => setIsModalOpen(false);
   return (
     <section
       style={{
@@ -22,12 +28,13 @@ const HomeBannerBottomSection = () => {
               aesthetic needs
             </p>
             <div>
-              <Button className="primary">Request a consultation </Button>
+              <Button onClick={handleOpenModal} className="primary">Request a consultation </Button>
             </div>
           </div>
           <div className="hidden md:block"></div>
         </div>
       </div>
+      <BookingModal isOpen={isModalOpen} onClose={handleCloseModal} />
     </section>
   );
 };

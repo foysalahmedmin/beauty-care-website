@@ -16,6 +16,7 @@ const Contact = () => {
                 title="Contact Us"
                 description="Contact us for any inquiries or to schedule an appointment. We are here to assist you."
                 image="https://images.squarespace-cdn.com/content/v1/64f83f902d10c760d4813bf4/7dcd0d2c-bb28-43a0-a8e7-643a169b3707/saw.jpeg"
+                imageClassName="bg-blue-800 blur-md"
             />
 
             {/* Contact Information Cards */}
@@ -26,8 +27,8 @@ const Contact = () => {
                             <FaPhone className="text-primary text-2xl" />
                         </div>
                         <h3 className="text-xl font-semibold mb-3">Phone</h3>
-                        <p className="text-gray-600 mb-2">+44 20 1234 5678</p>
-                        <p className="text-gray-600">+44 20 8765 4321</p>
+                        <p className="text-gray-600 mb-2">02081495432</p>
+                        {/* <p className="text-gray-600">+44 20 8765 4321</p> */}
                     </div>
                     <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 text-center transform hover:-translate-y-1">
                         <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -35,14 +36,15 @@ const Contact = () => {
                         </div>
                         <h3 className="text-xl font-semibold mb-3">Email</h3>
                         <p className="text-gray-600 mb-2">info@arkangelclinic.com</p>
-                        <p className="text-gray-600">appointments@arkangelclinic.com</p>
+                        <p className="text-gray-600">arkangelclinicuk@gmail.com</p>
                     </div>
                     <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 text-center transform hover:-translate-y-1">
                         <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                             <FaMapMarkerAlt className="text-primary text-2xl" />
                         </div>
                         <h3 className="text-xl font-semibold mb-3">Location</h3>
-                        <p className="text-gray-600 mb-2">123 Harley Street</p>
+                        <p className="text-gray-600 mb-2">Aegon House</p>
+                        <p className="text-gray-600">13 Lanark Square (Ground Floor East)</p>
                         <p className="text-gray-600">London, W1G 6AB</p>
                     </div>
                     <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 text-center transform hover:-translate-y-1">
@@ -50,8 +52,7 @@ const Contact = () => {
                             <FaClock className="text-primary text-2xl" />
                         </div>
                         <h3 className="text-xl font-semibold mb-3">Opening Hours</h3>
-                        <p className="text-gray-600 mb-2">Mon-Fri: 9:00 - 18:00</p>
-                        <p className="text-gray-600">Sat: 10:00 - 16:00</p>
+                        <p className="text-gray-600 mb-2">Mon-Sun: 9:00 - 20:00</p>
                     </div>
                 </div>
 
@@ -139,7 +140,7 @@ const Contact = () => {
             </div>
 
             {/* FAQ Section */}
-            <div className="mb-24">
+            {/* <div className="mb-24">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-bold mb-4">Frequently Asked Questions</h2>
                     <p className="text-gray-600 max-w-2xl mx-auto">Find answers to common questions about our services and procedures</p>
@@ -162,10 +163,10 @@ const Contact = () => {
                         <p className="text-gray-600">We accept all major credit cards, debit cards, and cash payments. We also work with various insurance providers.</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* Newsletter Section */}
-            <div className="bg-gradient-to-r from-primary to-primary-dark text-white p-16 rounded-2xl overflow-hidden relative">
+            {/* <div className="bg-gradient-to-r from-primary to-primary-dark text-white p-16 rounded-2xl overflow-hidden relative">
                 <div className="absolute inset-0 bg-pattern opacity-10"></div>
                 <div className="relative z-10 text-center">
                     <h2 className="text-4xl font-bold mb-4">Stay Updated</h2>
@@ -185,7 +186,7 @@ const Contact = () => {
                         </button>
                     </form>
                 </div>
-            </div>
+            </div> */}
         </main >
     );
 };

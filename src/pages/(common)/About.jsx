@@ -8,6 +8,7 @@ const About = () => {
                 title="About Us"
                 description="Discover the Arkangel Clinic, where we specialize in providing top-notch private GP services. With same-day appointments, personalized care, and convenient consultations, we ensure your health is our priority."
                 image="https://images.squarespace-cdn.com/content/v1/64f83f902d10c760d4813bf4/7dcd0d2c-bb28-43a0-a8e7-643a169b3707/saw.jpeg"
+                imageClassName="bg-blue-800 blur-md"
             />
             {/* Mission Section */}
             <section className="w-full bg-white py-20">
@@ -17,12 +18,13 @@ const About = () => {
                             <p className="text-primary uppercase tracking-[2px] text-sm font-semibold">ABOUT US</p>
                             <h2 className="text-4xl md:text-5xl lg:text-6xl font-light">Helping you look and feel your best every day.</h2>
                             <p className="text-lg text-gray-600">
-                                At Arkangel Clinic, we've been enhancing confidence and empowering lives for over 10 years. With multiple clinics across London, we're proud to be a leading provider of Aesthetic and GP Services. Our mission is simple: to make advanced, effective treatments accessible to everyone.
+                                At Arkangel Clinic, we have been boosting confidence and enriching lives for over a decade. With multiple clinics across London, we take pride in being a leading provider of Aesthetic and GP services.
                             </p>
+                            <p className="text-lg text-gray-600">Our mission is simple: to make advanced, effective treatments accessible to all.</p>
                         </div>
                         <div className="relative h-[500px] w-full">
                             <img
-                                src="https://www.pipcpatients.org/uploads/1/2/9/0/12902828/accept-new-medicare-patients2_orig.jpg"
+                                src="/images/shut/about/1333252256.jpg"
                                 alt="Our Mission"
                                 className="h-full w-full object-cover rounded-lg"
                             />
@@ -37,7 +39,7 @@ const About = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                         <div className="relative h-[500px] w-full order-2 md:order-1">
                             <img
-                                src="https://www.pipcpatients.org/uploads/1/2/9/0/12902828/accept-new-medicare-patients2_orig.jpg"
+                                src="/images/shut/about/1901859253.jpg"
                                 alt="Our Community"
                                 className="h-full w-full object-cover rounded-lg"
                             />
@@ -46,7 +48,7 @@ const About = () => {
                             <p className="text-primary uppercase tracking-[2px] text-sm font-semibold">A PLACE FOR EVERYONE</p>
                             <h2 className="text-4xl md:text-5xl lg:text-6xl font-light">Empowered to Belong</h2>
                             <p className="text-lg text-gray-600">
-                                We are a people-first organisation, welcoming everyone with open arms—clients, patients, and employees alike. We foster a culture of belonging, where individuals feel supported, celebrated, and valued for who they are. Diversity is at the heart of our growing community, empowering each person to live their best life and build meaningful relationships.
+                                We are a people-first organisation, warmly welcoming everyone—clients, patients, and employees alike. We cultivate a culture of belonging, where individuals feel supported, celebrated, and valued for who they are. Diversity lies at the heart of our growing community, empowering each person to live their best life and forge meaningful relationships.
                             </p>
                         </div>
                     </div>
@@ -88,7 +90,7 @@ const About = () => {
                         <div className="space-y-4">
                             <div className="h-[400px] w-full overflow-hidden bg-[#241b13]">
                                 <img
-                                    src="https://beautytechnology.com.au/wp-content/uploads/2022/09/Picture2-1.jpg"
+                                    src="/images/shut/about/2180781655.jpg"
                                     alt="Advanced Technology"
                                     className="h-full object-cover object-top opacity-90 duration-500 group-hover:opacity-80"
                                 />
@@ -101,7 +103,7 @@ const About = () => {
                         <div className="space-y-4">
                             <div className="h-[400px] w-full overflow-hidden bg-[#241b13]">
                                 <img
-                                    src="https://therapieclinic.com/_next/image?url=%2Fassets%2Faboutus%2Fabout03.webp&w=828&q=75"
+                                    src="/images/shut/about/1901859253.jpg"
                                     alt="Expert Team"
                                     className="h-full object-cover object-top opacity-90 duration-500 group-hover:opacity-80"
                                 />
@@ -114,7 +116,7 @@ const About = () => {
                         <div className="space-y-4">
                             <div className="h-[400px] w-full overflow-hidden bg-[#241b13]">
                                 <img
-                                    src="https://www.pipcpatients.org/uploads/1/2/9/0/12902828/accept-new-medicare-patients2_orig.jpg"
+                                    src="/images/shut/about/1562123116.jpg"
                                     alt="Personalized Care"
                                     className="h-full object-cover object-top opacity-90 duration-500 group-hover:opacity-80"
                                 />
@@ -146,7 +148,7 @@ const About = () => {
                                         <img
                                             alt="Dr. Sarah Smith"
                                             className="h-auto w-4/6 rounded-full md:w-full"
-                                            src="https://i.pinimg.com/736x/c5/a3/90/c5a3904b38eb241dd03dd30889599dc4.jpg"
+                                            src="/images/shut/about/1636197373.jpg"
                                         />
                                     </div>
                                     <div className="font-Optima text-2xl font-bold tracking-[-1px] text-noir-900 md:text-5xl">4.8</div>
@@ -187,7 +189,7 @@ const About = () => {
                                         <img
                                             alt="Dr. Sarah Smith"
                                             className="h-auto w-4/6 rounded-full md:w-full"
-                                            src="https://i.pinimg.com/736x/c5/a3/90/c5a3904b38eb241dd03dd30889599dc4.jpg"
+                                            src="/images/shut/about/2480850611.jpg"
                                         />
                                     </div>
                                     <div className="font-Optima text-2xl font-bold tracking-[-1px] text-noir-900 md:text-5xl">4.8</div>

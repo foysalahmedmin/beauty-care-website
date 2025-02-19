@@ -26,10 +26,10 @@ const routes = [
       },
     ],
   },
-  {
-    path: "#blog",
-    label: "Blog",
-  },
+  // {
+  //   path: "#blog",
+  //   label: "Blog",
+  // },
   {
     path: "/contact",
     label: "Contact",
