@@ -12,7 +12,7 @@ const testimonials = [
   {
     name: "Emily Roberts",
     location: "London, UK",
-    image: "https://media.istockphoto.com/id/1126913832/photo/teenage-beauty.jpg?s=612x612&w=0&k=20&c=PTqUB1e1rNNoWqa-TWsXaDlPpEmnIWbI2bxySwNRJXM=",
+    image: "/images/feedback/1.jpg",
     testimonial:
       "I underwent a facelift procedure, and the results are beyond my expectations! The team was incredibly professional and made me feel at ease every step of the way. I look and feel younger, and I couldn't be happier with my decision to trust them with my transformation.",
     rating: 5,
@@ -20,17 +20,17 @@ const testimonials = [
   {
     name: "John Williams",
     location: "Manchester, UK",
-    image: "https://t3.ftcdn.net/jpg/06/11/54/34/360_F_611543432_8GkBOGNH9QeRsIe4ZhQMraDEzz4L5M13.jpg",
+    image: "/images/feedback/2.jpg",
     testimonial:
-      "I had liposuction and body sculpting done, and I am amazed by the results. The staff was supportive, and the entire process was smooth. My confidence has grown significantly, and I feel more comfortable in my own skin. Highly recommend!",
+      "I had body contouring done and couldn’t be happier with the results! The staff was incredibly supportive, making the whole process smooth and stress- free.My confidence has soared, and I finally feel comfortable in my own skin.It’s truly life - changing—I highly recommend it to anyone considering the treatment!",
     rating: 5,
   },
   {
     name: "Sophia Taylor",
     location: "Bristol, UK",
-    image: "https://static.vecteezy.com/system/resources/thumbnails/041/286/941/small_2x/ai-generated-of-an-asian-female-model-on-dark-background-photo.jpg",
+    image: "/images/feedback/3.jpg",
     testimonial:
-      "The tummy tuck procedure I had was life-changing. The surgeons were skilled and compassionate, and I could see visible results almost immediately. Recovery was quicker than I expected, and the results are natural and beautiful. I am so grateful to the entire team.",
+      "The laser procedure was truly transformative. The specialists were skilled and caring, with visible results appearing almost instantly.Recovery was quicker than expected, leaving me with natural, beautiful results. Incredibly grateful!",
     rating: 5,
   },
 ];

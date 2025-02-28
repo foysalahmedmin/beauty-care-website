@@ -43,21 +43,20 @@ const Contact = () => {
                             <FaMapMarkerAlt className="text-primary text-2xl" />
                         </div>
                         <h3 className="text-xl font-semibold mb-3">Location</h3>
-                        <p className="text-gray-600 mb-2">Aegon House</p>
                         <p className="text-gray-600">13 Lanark Square (Ground Floor East)</p>
-                        <p className="text-gray-600">London, W1G 6AB</p>
+                        <p className="text-gray-600">London E14 9QD</p>
                     </div>
                     <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 text-center transform hover:-translate-y-1">
                         <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                             <FaClock className="text-primary text-2xl" />
                         </div>
                         <h3 className="text-xl font-semibold mb-3">Opening Hours</h3>
-                        <p className="text-gray-600 mb-2">Mon-Sun: 9:00 - 20:00</p>
+                        <p className="text-gray-600 mb-2">Mon-Sun: 9:00 am - 7:30 pm</p>
                     </div>
                 </div>
 
                 {/* Contact Form and Map */}
-                <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 mb-24">
+                <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 mb-24">
                     <div className="lg:col-span-2 bg-white p-10 rounded-lg border border-gray-100">
                         <div className="max-w-md mx-auto">
                             <h2 className="text-3xl font-bold mb-2 bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent">Get in Touch</h2>
@@ -118,9 +117,9 @@ const Contact = () => {
                             </form>
                         </div>
                     </div>
-                    <div className="lg:col-span-3 bg-white p-10 rounded-2xl shadow-lg">
+                    {/* <div className="lg:col-span-3 bg-white p-10 rounded-2xl shadow-lg">
                         <h2 className="text-3xl font-bold mb-2">Find Us</h2>
-                        <p className="text-gray-600 mb-8">Visit our clinic in Harley Street</p>
+                        <p className="text-gray-600 mb-8">Visit our clinic</p>
                         <div className="h-[400px] rounded-xl overflow-hidden">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.4790621357444!2d-0.1483347!3d51.5199828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad3c9ea3b97%3A0x5f0e791c8d3a1c69!2sHarley%20St%2C%20London!5e0!3m2!1sen!2suk!4v1643900874197!5m2!1sen!2suk"
@@ -132,7 +131,7 @@ const Contact = () => {
                                 referrerPolicy="no-referrer-when-downgrade"
                             ></iframe>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* Map */}

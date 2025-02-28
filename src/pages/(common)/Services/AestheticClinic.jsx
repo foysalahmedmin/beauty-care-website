@@ -8,8 +8,9 @@ const AestheticClinic = () => {
     <main className="min-h-screen">
       <BannerSection
         title="Aesthetic Clinic"
-        description="Experience comprehensive healthcare with our expert GP services, offering personalized medical attention in a comfortable, state-of-the-art facility."
-        image="/images/shut/banner/2.jpg"
+        description="Transform your appearance with our advanced aesthetic treatments, delivered by highly skilled professionals
+using state- of - the - art technology and proven techniques."
+        image="/images/shut/banner/1.jpg"
       />
       <AestheticCard />
       <FaceSurgicalSection />

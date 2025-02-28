@@ -230,8 +230,8 @@ export const aestheticServices = [
         slug: "laser_treatments",
         description: "Transform your skin with our state-of-the-art laser treatments, targeting everything from hair removal to skin rejuvenation with precision and care.",
         compare: {
-            before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
-            after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
+            before: "/images/shut/laser/before.jpg",
+            after: "/images/shut/laser/after.jpg"
         },
         // image: "https://www.instyle.com/thmb/sSLIVBytnseFMojimQQ3sdw8Gsg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/052623-Laser-facial-treatment-lead-e858389458d54fb29aa80265a30e913d.jpg",
         image: "/images/shut/treatments/2471689759.jpg",
@@ -319,8 +319,8 @@ export const aestheticServices = [
         slug: "body_contouring_and_fat_reduction",
         description: "Sculpt and refine your body with our non-invasive contouring treatments, designed to target stubborn fat and enhance your natural silhouette.",
         compare: {
-            before: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27769.jpg",
-            after: "https://img.freepik.com/free-photo/lovely-woman-posing_144627-27768.jpg"
+            before: "/images/shut/body_cont/before.jpg",
+            after: "/images/shut/body_cont/after.jpg"
         },
         // image: "https://thehebespa.com/wp-content/uploads/2024/09/image2-2.jpg",
         image: "/images/shut/treatments/2429927845.jpg",
@@ -778,27 +778,32 @@ export const conciergeServices = [
         image: "/images/shut/con/1974998387.jpg",
         description: "Comprehensive wellness services and preventative care programs",
         benefits: [
-            "Health screenings",
-            "Jet lag recovery programs",
-            "IV therapy treatments",
-            "Personalized nutrition plans"
+            "Routine health screenings",
+            "Nutritional counselling",
+            "Fitness programmes",
+            "Health scanning",
+            "Vaccination and immunisation"
         ],
         faqs: [
             {
-                question: "What types of health screenings do you offer?",
-                answer: "We offer comprehensive health screenings including blood work, cardiac evaluation, cancer screening, and full body check-ups tailored to your age and risk factors."
+                question: "What are routine health screenings?",
+                answer: "Routine health screenings include check-ups and tests to detect health issues early for timely treatment."
             },
             {
-                question: "How does the IV therapy treatment work?",
-                answer: "Our IV therapy treatments are customized to your needs, delivering vitamins, minerals, and hydration directly into your bloodstream for maximum absorption and benefit."
+                question: "What does nutritional counselling involve?",
+                answer: "Nutritional counselling provides personalised advice on diet, weight management, and healthy eating for overall well- being."
             },
             {
-                question: "What's included in the jet lag recovery program?",
-                answer: "Our jet lag program includes light therapy, sleep scheduling, nutrition guidance, and optional IV hydration to help you adjust to new time zones quickly."
+                question: "What types of fitness programmes are available?",
+                answer: "Fitness programmes offer tailored exercise plans to promote physical activity and improve overall health."
             },
             {
-                question: "How are nutrition plans customized?",
-                answer: "Our nutritionists create personalized plans based on your health goals, dietary preferences, lifestyle, and any medical conditions you may have."
+                question: "What mental health support services can I access?",
+                answer: "Mental health support includes counselling, stress management, and strategies to maintain emotional well- being and resilience."
+            },
+            {
+                question: "What vaccination and immunisation services are provided?",
+                answer: "Vaccination and immunisation services protect individuals from preventable diseases, ensuring better public health and safety."
             }
         ]
     },

@@ -24,8 +24,7 @@ const HomeBannerBottomSection = () => {
               </h2>
             </div>
             <p className="text-lg">
-              Schedule a consultation with our expert providers to discus your
-              aesthetic needs
+              Schedule a consultation with our expert providers to discuss your health needs.
             </p>
             <div>
               <Button onClick={handleOpenModal} className="primary">Request a consultation </Button>

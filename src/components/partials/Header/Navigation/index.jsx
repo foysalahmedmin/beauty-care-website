@@ -1,3 +1,4 @@
+import AnimatedLogo from "@/components/ui/AnimatedLogo";
 import {
   Toggle,
   ToggleOffComp,
@@ -6,7 +7,6 @@ import {
 } from "@/components/ui/Toggle";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
-import Logo from "../../Logo";
 import NavMenu from "./NavMenu";
 
 const Navigation = ({ className, isOpen, setIsOpen }) => {
@@ -16,7 +16,7 @@ const Navigation = ({ className, isOpen, setIsOpen }) => {
         <div className="container h-full">
           <div className="relative flex h-full items-center justify-between gap-[1em] pb-4 md:grid md:grid-cols-5 lg:gap-[1.5em]">
             <div className="flex items-center justify-start">
-              <Logo />
+              <AnimatedLogo />
             </div>
             <div className="md:col-span-3">
               <NavMenu isOpen={isOpen} setIsOpen={setIsOpen} />

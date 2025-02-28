@@ -27,16 +27,16 @@ const HomeBioSection = () => {
                 Welcome Arkangel
               </div>
               <h2 className="text-4xl uppercase md:text-5xl">
-                London's center for cosmetic surgery
+                LONDON CENTER FOR ASETHETIC BEAUTY
               </h2>
             </div>
             <p>
-              Experience world-class cosmetic surgery with state-of-the-art techniques and
-              personalised care. Our expert surgeons deliver exceptional results tailored to your
-              unique needs.
+              Experience world-class aesthetic care with personalised attention and advanced techniques. Our specialists
+              prioritise your needs, delivering natural, confidence-boosting results with compassion and precision. Trust us to
+              enhance your beauty with care.
             </p>
             <div>
-              <Button onClick={() => navigate("/about")} className="secondary">About the clinic</Button>
+              <Button onClick={() => navigate("/aesthetic_clinic")} className="secondary">About the clinic</Button>
             </div>
           </div>
         </div>

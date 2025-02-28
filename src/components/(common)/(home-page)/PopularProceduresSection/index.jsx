@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/Button";
-import { Dot } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const PopularProceduresSection = () => {
+  const navigate = useNavigate();
   return (
     <section className="my-16 md:my-24">
       <div className="container space-y-8">
@@ -14,8 +15,8 @@ const PopularProceduresSection = () => {
           <div className="relative -z-10 overflow-hidden md:order-2 md:-ml-20 lg:h-[32rem] xl:h-[40rem]">
             <img
               className="size-full min-h-96 object-cover object-center"
-              // src="https://media.istockphoto.com/id/1343145458/photo/cheerful-smiling-young-woman-massaging-face-cheek-bones-beauty-model-with-perfect-smooth-skin.jpg?s=612x612&w=0&k=20&c=s_qUQ4qGWhV9M8LntlfcPQBJof3w9g4_Pg6cxRETa7I="
               src="/images/shut/face_lift/1.jpg"
+              loading="lazy"
               alt=""
             />
           </div>
@@ -25,19 +26,17 @@ const PopularProceduresSection = () => {
                 <h2 className="text-4xl uppercase">Facelift</h2>
               </div>
               <p className="text-lg">
-                The facelift, or rhytidectomy, is the third most common facial plastic surgery worldwide.
-                It effectively tightens sagging skin, smooths wrinkles, and restores youthful contours.
-                Our highly skilled surgeons utilise advanced techniques to deliver natural-looking
-                results, helping you achieve a refreshed, rejuvenated appearance with minimal
-                downtime.
+                We specialise in advanced anti-ageing and body contouring, including liposuction, tummy tucks, and sculpting.
+                With expert care, we enhance natural beauty, restore firmness, and create a balanced, confident silhouette to suit
+                you.
               </p>
               <div>
-                <Button className="secondary">View Details</Button>
+                <Button onClick={() => navigate("/aesthetic_clinic/dermal_fillers")} className="secondary">View Details</Button>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap items-center justify-center">
+        {/* <div className="flex flex-wrap items-center justify-center">
           {[
             "Facelift",
             "Rhinoplasty",
@@ -56,7 +55,7 @@ const PopularProceduresSection = () => {
               <span>{item}</span>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/Button";
+import { useNavigate } from "react-router-dom";
 
 const BodySurgicalSection = () => {
+  const navigate = useNavigate();
   return (
     <section className="my-16 md:my-24">
       <>
@@ -24,14 +26,14 @@ const BodySurgicalSection = () => {
                 </h2>
               </div>
               <p className="text-lg">
-                We specialise in advanced anti-ageing and body contouring, including liposuction,
-                abdominoplasty, and body sculpting. Our expert surgeons deliver natural-looking
-                results with precision and care. Tailored to your needs, our procedures enhance
-                contours, restore firmness, and achieve a balanced, confident silhouette with the
-                highest medical standards.
+                We specialise in advanced anti-ageing and body contouring, including liposuction, abdominoplasty, and
+                sculpting. With expert care, we enhance your natural beauty, restore firmness, and create a balanced, confident
+                silhouette to suit you.
               </p>
               <div>
-                <Button className="primary">Body Procedures</Button>
+                <Button className="primary" onClick={() => navigate("/aesthetic_clinic/body_contouring_and_fat_reduction")}>
+                  Body Procedures
+                </Button>
               </div>
             </div>
           </div>

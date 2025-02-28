@@ -1,14 +1,14 @@
 import { Button } from "@/components/ui/Button";
 import { Check } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const NonSurgicalSection = () => {
+  const navigate = useNavigate();
   const points = [
-    "Neuromodulators",
-    "PDO Threads",
     "Dermal Filters",
     "Body Treatments",
     "Collagen Stimulation",
-    "Laser Technology",
+    "Laser Technology.",
   ];
   return (
     <section className="my-16 md:my-24">
@@ -19,12 +19,14 @@ const NonSurgicalSection = () => {
               className="ml-auto size-[calc(100%-10%)] object-contain object-center"
               // src="https://cuteraesthetics.com/wp-content/uploads/2022/05/skin-treatment.jpg"
               src="/images/shut/welcome/1.jpg"
+              loading="lazy"
               alt=""
             />
             <img
               className="absolute bottom-0 left-0 size-[40%] object-cover object-center"
               // src="https://www.shutterstock.com/image-photo/highquality-photo-skincare-cosmetics-concept-600nw-2472173333.jpg"
               src="/images/shut/welcome/2.jpg"
+              loading="lazy"
               alt=""
             />
           </div>
@@ -38,9 +40,8 @@ const NonSurgicalSection = () => {
               </h2>
             </div>
             <p className="text-lg">
-              Discover non-surgical treatments that enhance your beauty with
-              safe, effective, and personalized solutions for youthful,
-              rejuvenated results.
+              Explore gentle, non-invasive treatments designed to enhance your natural beauty with safe, effective, and
+              personalised care - helping you feel confident, refreshed, and radiant at every stage of life.
             </p>
             <ul className="grid grid-cols-2 gap-2">
               {points.map((item, index) => (
@@ -51,7 +52,7 @@ const NonSurgicalSection = () => {
               ))}
             </ul>
             <div>
-              <Button className="secondary">Find out more</Button>
+              <Button onClick={() => navigate("/aesthetic_clinic")} className="secondary">Find out more</Button>
             </div>
           </div>
         </div>

@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/Button";
 import ReactCompareImage from "react-compare-image";
+import { useNavigate } from "react-router-dom";
 
 const FaceSurgicalSection = () => {
+  const navigate = useNavigate();
   return (
     <section className="my-16 md:my-24">
       <div className="container">
@@ -18,19 +20,16 @@ const FaceSurgicalSection = () => {
                 Anti-Aging Experts
               </div>
               <h2 className="text-4xl uppercase md:text-5xl">
-                Every facial surgery is a piece of art
+                EVERY VISAGE IS A WORK OF ART
               </h2>
             </div>
             <p className="text-lg">
-              Our highly skilled surgeons specialise in sophisticated facial procedures aimed at
-              rejuvenating facial contours and enhancing natural aesthetics. Employing a meticulous
-              and methodical approach, we prioritise precision, personalised care, and the highest
-              clinical standards in every treatment. Our expertise ensures that each procedure is
-              tailored to the unique needs of our patients, combining advanced surgical techniques
-              with an unwavering commitment to excellence.
+              Our specialists excel in advanced facial procedures designed to restore natural beauty and refresh contours. With
+              precision, personalised care, and the highest standards, we ensure every treatment is tailored with compassion
+              and expertise.
             </p>
             <div>
-              <Button className="secondary">Facial Procedures</Button>
+              <Button className="secondary" onClick={() => navigate("/aesthetic_clinic/botox")}>Facial Procedures</Button>
             </div>
           </div>
         </div>

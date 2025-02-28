@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/Button";
 
 const counts = [
   {
@@ -37,26 +36,26 @@ const DoctorSection = () => {
                 Anti-Aging Experts
               </div>
               <h2 className="text-4xl uppercase md:text-5xl">
-                Board Certified Word Renowed plastic surgeon
+                Board Certified word renowned aesthetician
               </h2>
             </div>
             <p className="text-lg">
               Our board-certified, world-renowned specialises in advanced anti-ageing
               procedures, delivering youthful, rejuvenated results with expert care and precision.
             </p>
-            <div>
+            {/* <div>
               <Button className="primary">About The Client</Button>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4">
+        {/* <div className="grid grid-cols-2 md:grid-cols-4">
           {counts?.map((item, index) => (
             <div key={index} className="space-y-2 text-center">
               <h1>{item.value}</h1>
               <p>{item.label}</p>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

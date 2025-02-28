@@ -9,8 +9,9 @@ const PrivateGp = () => {
         <main className="space-y-14">
             <BannerSection
                 title="Private GP Services"
-                description="Expert private GP services with same-day appointments, personalized care, and convenient consultations."
-                image="/images/shut/banner/1.jpg"
+                description="Experience comprehensive healthcare with our expert GP services, offering personalized medical attention in a
+comfortable, state- of - the - art facility."
+                image="/images/shut/banner/2.jpg"
             />
             <PrivateCardSection />
             <DoctorSection />

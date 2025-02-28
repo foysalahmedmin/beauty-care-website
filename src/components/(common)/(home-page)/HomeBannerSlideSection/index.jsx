@@ -12,25 +12,6 @@ import HomeBannerSlide from "./HomeBannerSlide";
 const serviceData = [
   {
     id: 1,
-    name: "Private GP Clinic",
-    head_1: "Expert Medical Care",
-    head_2: "At Your Convenience",
-    short_description:
-      "Experience comprehensive healthcare with our expert GP services, offering personalized medical attention in a comfortable, state- of - the - art facility.",
-    button_1: "Book A Free Consultation",
-    button_2: "See More",
-    link: "/private_gp_clinic",
-    image: "/images/shut/banner/1.jpg",
-    // image:
-    //   "https://images.squarespace-cdn.com/content/v1/64f83f902d10c760d4813bf4/7dcd0d2c-bb28-43a0-a8e7-643a169b3707/saw.jpeg",
-    tags: [
-      "Private GP Consultation",
-      "Extended GP Consultation",
-      "Full Health Check",
-    ],
-  },
-  {
-    id: 2,
     name: "Aesthetic Clinic",
     head_1: "Enhance Your Natural Beauty",
     head_2: "With Advanced Treatments",
@@ -41,9 +22,30 @@ const serviceData = [
     link: "/aesthetic_clinic",
     // image:
     //   "https://www.shutterstock.com/image-photo/beautiful-woman-perfect-skin-underwear-600nw-2492680667.jpg",
-    image: "/images/shut/banner/2.jpg",
+    // image: "/images/shut/banner/2.jpg",
+    image: "/images/shut/banner/1.jpg",
     tags: ["Aesthetic Treatment", "Laser Treatment", "Facial Treatment"],
   },
+  {
+    id: 2,
+    name: "Private GP Clinic",
+    head_1: "Expert Medical Care",
+    head_2: "At Your Convenience",
+    short_description:
+      "Experience comprehensive healthcare with our expert GP services, offering personalized medical attention in a comfortable, state- of - the - art facility.",
+    button_1: "Book A Free Consultation",
+    button_2: "See More",
+    link: "/private_gp_clinic",
+    image: "/images/shut/banner/2.jpg",
+    // image:
+    //   "https://images.squarespace-cdn.com/content/v1/64f83f902d10c760d4813bf4/7dcd0d2c-bb28-43a0-a8e7-643a169b3707/saw.jpeg",
+    tags: [
+      "Private GP Consultation",
+      "Extended GP Consultation",
+      "Full Health Check",
+    ],
+  },
+
   {
     id: 3,
     name: "Concierge Service",
