@@ -20,11 +20,11 @@ const BodyLinkPoint = ({ className, number, label, link, ...props }) => {
         href={link}
         target="_blank"
       >
-        {number && (
+        {/* {number && (
           <span className="absolute bottom-0 left-0 top-0 flex -translate-x-full items-center text-[1em] leading-none">
             {number}
           </span>
-        )}
+        )} */}
         <span className="inline-block whitespace-nowrap bg-primary px-[0.5em] py-[0.25em] text-[0.75em] leading-none text-white">
           {label}
         </span>
