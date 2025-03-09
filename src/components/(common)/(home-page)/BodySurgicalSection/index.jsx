@@ -6,17 +6,17 @@ const BodyLinkPoint = ({ className, number, label, link, ...props }) => {
   return (
     <div
       className={cn(
-        "absolute right-[0%] top-[0%] aspect-square size-[0.5em] -translate-y-1/2 translate-x-1/2 text-[1em]",
+        "group/point absolute right-[0%] top-[0%] aspect-square size-[0.5em] -translate-y-1/2 translate-x-1/2 text-[1em]",
         className,
       )}
       {...props}
     >
-      <span className="relative flex size-full">
+      <a className="relative flex size-full" href={link} target="_blank">
         <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75" />
         <span className="relative inline-flex size-full rounded-full bg-white" />
-      </span>
+      </a>
       <a
-        className="absolute bottom-0 right-1/2 flex translate-x-1/2 translate-y-full items-center gap-[1em] p-[0.25em]"
+        className="invisible absolute bottom-0 right-1/2 flex translate-x-1/2 translate-y-full items-center gap-[1em] p-[0.25em] opacity-0 transition-all duration-300 group-hover/point:visible group-hover/point:opacity-100"
         href={link}
         target="_blank"
       >
