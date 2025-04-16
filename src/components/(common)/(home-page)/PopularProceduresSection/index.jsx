@@ -26,9 +26,7 @@ const PopularProceduresSection = () => {
                 <h2 className="text-4xl uppercase">Facelift</h2>
               </div>
               <p className="text-lg">
-                We specialise in advanced anti-ageing and body contouring, including liposuction, tummy tucks, and sculpting.
-                With expert care, we enhance natural beauty, restore firmness, and create a balanced, confident silhouette to suit
-                you.
+                We specialise in advanced non surgical facelift which enhance natural beauty, restore firmness, and create a balanced, confident silhouette to suit you.
               </p>
               <div>
                 <Button onClick={() => navigate("/aesthetic_clinic/dermal_fillers")} className="secondary">View Details</Button>

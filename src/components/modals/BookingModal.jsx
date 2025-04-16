@@ -1,4 +1,7 @@
+import { AddSchedule } from '@/api/apis';
+import { useMutation } from '@tanstack/react-query';
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const BookingModal = ({ isOpen, onClose }) => {
     const [formData, setFormData] = useState({
@@ -8,11 +11,20 @@ const BookingModal = ({ isOpen, onClose }) => {
         reason: ''
     });
 
-    const handleSubmit = (e) => {
+    const { mutateAsync, isLoading } = useMutation({
+        mutationFn: AddSchedule
+    })
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Handle form submission here
-        console.log('Form submitted:', formData);
-        onClose();
+        try {
+            const status = await mutateAsync(formData)
+            if (status) {
+                toast.success(status?.message || "Schedule added successfully")
+            }
+            onClose();
+        } catch (error) {
+            toast.error(error?.response?.data?.message || "Something went wrong")
+        }
     };
 
     const handleChange = (e) => {
@@ -28,11 +40,11 @@ const BookingModal = ({ isOpen, onClose }) => {
     return (
         <div className="fixed inset-0 z-50 flex items-center justify-center">
             {/* Overlay */}
-            <div 
+            <div
                 className="fixed inset-0 bg-black/50 backdrop-blur-sm"
                 onClick={onClose}
             ></div>
-            
+
             {/* Modal */}
             <div className="relative z-50 w-full max-w-md rounded-xl bg-white p-6 shadow-xl md:p-8">
                 <button
@@ -45,7 +57,7 @@ const BookingModal = ({ isOpen, onClose }) => {
                 </button>
 
                 <h2 className="mb-6 text-2xl font-semibold text-noir-900">Book an Appointment</h2>
-                
+
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <div>
                         <label htmlFor="name" className="mb-1 block text-sm font-medium text-gray-700">
@@ -109,9 +121,10 @@ const BookingModal = ({ isOpen, onClose }) => {
 
                     <button
                         type="submit"
+                        disabled={isLoading}
                         className="mt-4 w-full rounded-lg bg-primary px-6 py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-primary/90"
                     >
-                        Book Now
+                        {isLoading ? 'Loading...' : 'Book Now'}
                     </button>
                 </form>
             </div>

@@ -1,13 +1,26 @@
+import { AddContact } from "@/api/apis";
 import BannerSection from "@/components/partials/Sections/BannerSection";
+import { useMutation } from "@tanstack/react-query";
 import { useForm } from 'react-hook-form';
 import { FaArrowRight, FaClock, FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
+import { toast } from "react-toastify";
 
 const Contact = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors }, reset } = useForm();
+    const { mutateAsync, isLoading } = useMutation({
+        mutationFn: AddContact
+    })
 
-    const onSubmit = (data) => {
-        console.log(data);
-        // Handle form submission here
+    const onSubmit = async (data) => {
+        try {
+            const status = await mutateAsync(data)
+            if (status) {
+                toast.success("Message sent successfully")
+            }
+            reset();
+        } catch (error) {
+            toast.error(error?.response?.data?.message || "Something went wrong")
+        }
     };
 
     return (
@@ -35,8 +48,7 @@ const Contact = () => {
                             <FaEnvelope className="text-primary text-2xl" />
                         </div>
                         <h3 className="text-xl font-semibold mb-3">Email</h3>
-                        <p className="text-gray-600 mb-2">info@arkangelclinic.com</p>
-                        <p className="text-gray-600">arkangelclinicuk@gmail.com</p>
+                        <p className="text-gray-600 mb-2">arkangelclinicuk@gmail.com</p>
                     </div>
                     <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 text-center transform hover:-translate-y-1">
                         <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -108,6 +120,7 @@ const Contact = () => {
                                     {errors.message && <p className="text-red-500 text-xs mt-1">{errors.message.message}</p>}
                                 </div>
                                 <button
+                                    disabled={isLoading}
                                     type="submit"
                                     className="w-full bg-black text-white py-2.5 px-4 rounded-md hover:bg-gray-800 transition-colors duration-200 flex items-center justify-center space-x-2 group"
                                 >

@@ -98,10 +98,7 @@ const BodySurgicalSection = () => {
                 </h2>
               </div>
               <p className="text-lg">
-                We specialise in advanced anti-ageing and body contouring,
-                including liposuction, abdominoplasty, and sculpting. With
-                expert care, we enhance your natural beauty, restore firmness,
-                and create a balanced, confident silhouette to suit you.
+                We specialise in advanced anti-ageing and body contouring, PRP Therapy and Laser treatment. With expert care, we enhance your natural beauty, restore firmness, and create a balanced, confident silhouette to suit you.
               </p>
               <div>
                 <Button
