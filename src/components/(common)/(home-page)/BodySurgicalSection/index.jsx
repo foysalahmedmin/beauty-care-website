@@ -47,43 +47,43 @@ const BodySurgicalSection = () => {
                 className="right-[35%] top-[22%]"
                 number="01"
                 label="Face"
-                link="https://arkangelclinic.org/aesthetic_clinic/facial_rejuvenation_treatments"
+                link="https://arkangelclinic.org/aesthetic_clinic/6832b51ba351c511e19cd4ab"
               />
               <BodyLinkPoint
                 className="right-[48%] top-[48%]"
                 number="02"
                 label="Deltoid Region"
-                link="https://arkangelclinic.org/aesthetic_clinic/laser_treatments"
+                link="https://arkangelclinic.org/aesthetic_clinic/6832eb7483aba97abd7f307a"
               />
               <BodyLinkPoint
                 className="right-[36%] top-[52%]"
                 number="03"
                 label="Axillary Region"
-                link="https://arkangelclinic.org/aesthetic_clinic/body_contouring_and_fat_reduction"
+                link="https://arkangelclinic.org/aesthetic_clinic/6832eca2a8aee4091d36d343"
               />
               <BodyLinkPoint
                 className="right-[32%] top-[62%]"
                 number="04"
                 label="Waistline"
-                link="https://arkangelclinic.org/aesthetic_clinic/body_contouring_and_fat_reduction"
+                link="https://arkangelclinic.org/aesthetic_clinic/6832eca2a8aee4091d36d343"
               />
               <BodyLinkPoint
                 className="right-[45%] top-[70%]"
                 number="05"
                 label="Lower Thigh"
-                link="https://arkangelclinic.org/aesthetic_clinic/laser_treatmentsv"
+                link="https://arkangelclinic.org/aesthetic_clinic/6832eb7483aba97abd7f307a"
               />
               <BodyLinkPoint
                 className="right-[26%] top-[82%]"
                 number="06"
                 label="Gluteal Region"
-                link="https://arkangelclinic.org/aesthetic_clinic/body_contouring_and_fat_reduction"
+                link="https://arkangelclinic.org/aesthetic_clinic/6832eca2a8aee4091d36d343"
               />
               <BodyLinkPoint
                 className="right-[77%] top-[89%]"
                 number="07"
                 label="Feet"
-                link="https://arkangelclinic.org/aesthetic_clinic/laser_treatments"
+                link="https://arkangelclinic.org/aesthetic_clinic/6832eb7483aba97abd7f307a"
               />
             </div>
           </div>
@@ -105,7 +105,7 @@ const BodySurgicalSection = () => {
                   className="primary"
                   onClick={() =>
                     navigate(
-                      "/aesthetic_clinic/body_contouring_and_fat_reduction",
+                      "/aesthetic_clinic/6832eca2a8aee4091d36d343",
                     )
                   }
                 >

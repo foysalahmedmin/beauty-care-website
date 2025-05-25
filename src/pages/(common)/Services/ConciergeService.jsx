@@ -12,9 +12,6 @@ const ConciergeService = () => {
       <div className="mb-6">
         <ConciergeCard />
       </div>
-
-      {/* <FaceSurgicalSection />
-      <BodySurgicalSection /> */}
     </main>
   );
 };

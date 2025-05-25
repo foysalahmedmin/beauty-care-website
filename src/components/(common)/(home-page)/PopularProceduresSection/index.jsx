@@ -29,7 +29,7 @@ const PopularProceduresSection = () => {
                 We specialise in advanced non surgical facelift which enhance natural beauty, restore firmness, and create a balanced, confident silhouette to suit you.
               </p>
               <div>
-                <Button onClick={() => navigate("/aesthetic_clinic/dermal_fillers")} className="secondary">View Details</Button>
+                <Button onClick={() => navigate("/aesthetic_clinic/6832e9eaf532035aa2b0fbf1")} className="secondary">View Details</Button>
               </div>
             </div>
           </div>

@@ -29,7 +29,7 @@ const FaceSurgicalSection = () => {
               and expertise.
             </p>
             <div>
-              <Button className="secondary" onClick={() => navigate("/aesthetic_clinic/botox")}>Facial Procedures</Button>
+              <Button className="secondary" onClick={() => navigate("/aesthetic_clinic/6832e86efb2a7ad09a5344b3")}>Facial Procedures</Button>
             </div>
           </div>
         </div>

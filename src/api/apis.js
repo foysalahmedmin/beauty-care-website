@@ -15,3 +15,13 @@ export async function AddSchedule({ name, email, phone, reason }) {
     });
     return response?.data;
 }
+
+export async function fetchServices(type) {
+    const response = await base.get(`/api/service/get_all_services?type=${type}`);
+    return response?.data;
+}
+
+export async function fetchOneService(id) {
+    const response = await base.get(`/api/service/get_one_service/${id}`);
+    return response?.data;
+}

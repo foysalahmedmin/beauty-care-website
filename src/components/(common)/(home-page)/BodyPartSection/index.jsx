@@ -15,7 +15,7 @@ const BodyPartSection = () => {
             <div className="mt-auto">
               <h1 className="mb-4">FACE</h1>
               <div className="relative -mb-16 opacity-0 transition-all duration-500 group-hover:mb-0 group-hover:opacity-100">
-                <Button onClick={() => navigate("/aesthetic_clinic/facial_rejuvenation_treatments")} className="">View Procedures</Button>
+                <Button onClick={() => navigate("/aesthetic_clinic/6832b51ba351c511e19cd4ab")} className="">View Procedures</Button>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@ const BodyPartSection = () => {
             <div className="mt-auto">
               <h1 className="mb-4">BODY</h1>
               <div className="relative -mb-16 opacity-0 transition-all duration-500 group-hover:mb-0 group-hover:opacity-100">
-                <Button onClick={() => navigate("/aesthetic_clinic/body_contouring_and_fat_reduction")} className="">View Procedures</Button>
+                <Button onClick={() => navigate("/aesthetic_clinic/6832eca2a8aee4091d36d343")} className="">View Procedures</Button>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ const BodyPartSection = () => {
             <div className="mt-auto">
               <h1 className="mb-4">NON-SURGICAL</h1>
               <div className="relative -mb-16 opacity-0 transition-all duration-500 group-hover:mb-0 group-hover:opacity-100">
-                <Button onClick={() => navigate("/aesthetic_clinic/skin_tightening_treatments")} className="">View Procedures</Button>
+                <Button onClick={() => navigate("/aesthetic_clinic/6832f19d949cccec025c09b2")} className="">View Procedures</Button>
               </div>
             </div>
           </div>

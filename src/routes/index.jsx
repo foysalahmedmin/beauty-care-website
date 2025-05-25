@@ -71,7 +71,7 @@ export const routes = [
             element: <Suspense fallback={<LoadingSpinner />}><ConciergeService /></Suspense>,
           },
           {
-            path: "concierge_service/:slug",
+            path: "concierge_service/:id",
             element: <Suspense fallback={<LoadingSpinner />}><Concierge /></Suspense>,
           },
           {
